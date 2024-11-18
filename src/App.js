@@ -15,28 +15,30 @@ import AboutUs from './components/AboutUs/AboutUs.js'
 import Pricing from './components/Pricing/Pricing.js'
 import RecordingTestimonial from './components/RecordingTestimonial/RecordingTestimonial.js'
 import Footer from './components/Footer/Footer.js'
+import AirtableCalendar from './components/AirtableCalendar/AirtableCalendar.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Landing /> */}
-      {/* <IntroStatement /> */}
-      {/* <ArticlesAndPodcasts /> */}
-      {/* <TimeToBegin /> */}
-      {/* <NextCohortStarts /> */}
-      {/* <EnrollNow /> */}
-      {/* <EightPillars /> */}
-      {/* <Testimonials1 /> */}
+      <Landing />
+      <IntroStatement />
+      <ArticlesAndPodcasts />
+      <TimeToBegin />
+      <NextCohortStarts />
+      <EnrollNow />
+      <EightPillars />
+      <Testimonials1 />
+      {/* <AirtableCalendar /> */}
       <HardcoreCalendar />
-      {/* <TimeCommitment /> */}
-      {/* <EnrollNow /> */}
-      {/* <Testimonials2 /> */}
-      {/* <AboutUs /> */}
-      {/* <EnrollNow /> */}
-      {/* <Pricing /> */}
-      {/* <RecordingTestimonial /> */}
-      {/* <Footer /> */}
+      <TimeCommitment />
+      <EnrollNow />
+      <Testimonials2 />
+      <AboutUs />
+      <EnrollNow />
+      <Pricing />
+      <RecordingTestimonial />
+      <Footer />
     </div>
   );
 }

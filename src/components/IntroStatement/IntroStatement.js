@@ -24,11 +24,11 @@ function IntroStatement(){
 
 
         <div id='introStatementB'>
-          <div className='introStatementFormat container-cc py-1'>
+          <div className='introStatementFormat-reverse introStatementFormat container-cc py-1'>
               <div className='column basis30'>
                 <img 
                   src={INTRO_STATEMENT[1].src} 
-                  className="img-placeholder"
+                  className="img-resp"
                   alt={INTRO_STATEMENT[1].alt}  />
               </div>
               <div className='column basis70'>

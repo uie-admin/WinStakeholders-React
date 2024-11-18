@@ -47,14 +47,14 @@ span > a {
   font-size: 22px;
 }
 
-*/ ul, ol {
-  /* display: block; */
+/* ul, ol {
+  display: block;
   margin-block-start: 0em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 50px;
-}
+} */
 
 h1,
 h2,
@@ -213,9 +213,8 @@ p {
 /* STARTING DATE */
 .startingDate {
   background-color: black;
-  font-size: 32px;
+  font-size: 24px;
 }
-
 
 
 /* FLEXBOX STUFF */
@@ -293,18 +292,7 @@ p {
 }
 
 
-@media only screen and (max-width: 865px) {
-  .divider {
-    border-right: 0px solid white;
-    border-bottom: 2px solid white;
-  }
 
-  .testimonial .pr-3,
-  .testimonial .pl-3 {
-    padding-right: 0em !important;
-    padding-left: 0em !important;
-  }
-}
 
 
 /* START OF BUTTON */
@@ -799,4 +787,61 @@ p {
 
 .ft-p {
   line-height: 0.25em;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 54em) {
+  .startingDate {
+    font-size: 18px;
+  }
+
+  .introStatementFormat {
+    display: flex;
+    flex-direction: column;
+  }
+  .introStatementFormat-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
+  .basis70, .basis30 {
+    width: 100%;
+  }
+
+  .basis30 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  h2 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+
+  .img-resp {
+    min-width: 150px;
+    max-width: 150px;
+  }
+
+
+  .divider {
+    border-right: 0px solid white;
+    border-bottom: 2px solid white;
+  }
+
+  .testimonial .pr-3,
+  .testimonial .pl-3 {
+    padding-right: 0em !important;
+    padding-left: 0em !important;
+  }
 }
