@@ -46,22 +46,22 @@ export const STARTING_DATE = [
 export const INTRO_STATEMENT = [
   {
     id: 0,
-    span: 'Because of the program...',
-    desc: 'I got unlimited access to users for deep user research when, before, nobody would let them near any users or customers.',
+    span: 'Because of What if you could influence meaningful improvements in your organization’s products and services?',
+    desc: 'And be excited when you deliver great projects?!?',
     src: Person1,
     alt: 'Searching in book (with magnifying glass)',
   },
   {
     id: 1,
-    span: 'Halfway through the program...',
-    desc: '  I started being called to run executive-level visioning workshops, with the execs excited to adopt a UX perspective on the organization’s strategy',
+    span: 'What if you could create a strong culture of delivering great user experiences?',
+    desc: 'And put the constant battles to make users a priority behind you?!',
     src: Person2,
     alt: 'Chess piece with road map',
   },
   {
     id: 2,
-    span: 'After graduating the program...',
-    desc: 'I’m now regularly collaborating with Product Managers who never used to give me the time of day, let alone give UX any consideration.',
+    span: 'What if you could drive important decisions directly from critical user research insights?',
+    desc: 'And know the problems you’re solving are the right ones to solve?!',
     src: Person3,
     alt: 'Man pushing knight chess piece.',
   },

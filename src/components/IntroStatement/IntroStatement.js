@@ -8,8 +8,8 @@ function IntroStatement(){
         <div id='introStatementA' className='bg-lightGray' >
           <div className='introStatementFormat container-cc py-1'>
             <div className='column basis70'>
-              <p className='py-1'>{INTRO_STATEMENT[0].span}</p>
-              <h2>{INTRO_STATEMENT[0].desc}</h2>
+              <h2 className='py-1'>{INTRO_STATEMENT[0].span}</h2>
+              <p>{INTRO_STATEMENT[0].desc}</p>
             </div>
 
             <div className='column basis30'>
@@ -32,8 +32,8 @@ function IntroStatement(){
                   alt={INTRO_STATEMENT[1].alt}  />
               </div>
               <div className='column basis70'>
-                <p className='py-1'>{INTRO_STATEMENT[1].span}</p>
-                <h2>{INTRO_STATEMENT[1].desc}</h2>
+                <h2 className='py-1'>{INTRO_STATEMENT[1].span}</h2>
+                <p>{INTRO_STATEMENT[1].desc}</p>
               </div>
             </div>
         </div>
@@ -43,8 +43,8 @@ function IntroStatement(){
         <div id='introStatementC' className='bg-lightGray' >
         <div className='introStatementFormat container-cc py-1'>
             <div className='column basis70'>
-              <p className='py-1'>{INTRO_STATEMENT[2].span}</p>
-              <h2>{INTRO_STATEMENT[2].desc}</h2>
+              <h2 className='py-1'>{INTRO_STATEMENT[2].span}</h2>
+              <p>{INTRO_STATEMENT[2].desc}</p>
             </div>
 
             <div className='column basis30'>

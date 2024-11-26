@@ -29,13 +29,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* p, li {
+p, li {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  font-size: 25px;
+  Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.5em;
   padding-bottom: 1em;
-} */
+}
 
 span {
   color: rgb(142, 142, 142);
@@ -68,7 +68,7 @@ h5 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2em;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 5px;
@@ -76,22 +76,26 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5rem;
   padding-bottom: 10px;
   font-weight: 700;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.2rem;
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 600;
   line-height: 1.2;
 }
 
+.h3 {
+  font-size: 45px;
+}
+
 h4 {
-  font-size: 1.2em;
+  font-size: 1em;
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 700;
@@ -829,7 +833,6 @@ p {
 
 
   .img-resp {
-    min-width: 150px;
     max-width: 150px;
   }
 

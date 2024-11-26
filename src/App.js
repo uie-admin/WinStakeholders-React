@@ -8,14 +8,15 @@ import TimeToBegin from './components/TimeToBegin/TimeToBegin.js'
 import EnrollNow from './components/EnrollNow/EnrollNow.js'
 import EightPillars from './components/EightPillars/EightPillars.js'
 import Testimonials1 from './components/Testimonials1/Testimonials1.js'
-import HardcoreCalendar from './components/winCalendar/hardcoreCalendar.js'
 import TimeCommitment from './components/TimeCommitment/TimeCommitment.js'
 import Testimonials2 from './components/Testimonials2/Testimonials2.js'
 import AboutUs from './components/AboutUs/AboutUs.js'
 import Pricing from './components/Pricing/Pricing.js'
 import RecordingTestimonial from './components/RecordingTestimonial/RecordingTestimonial.js'
 import Footer from './components/Footer/Footer.js'
-import AirtableCalendar from './components/AirtableCalendar/AirtableCalendar.js';
+
+import AirtableCalendar from './components/Calendar/AirtableCalendar.js';
+// import HardcoreCalendar from './components/Calendar/hardcoreCalendar.js'
 
 function App() {
   return (
@@ -25,12 +26,14 @@ function App() {
       <IntroStatement />
       <ArticlesAndPodcasts />
       <TimeToBegin />
-      <NextCohortStarts />
       <EnrollNow />
+      <NextCohortStarts />
       <EightPillars />
       <Testimonials1 />
-      {/* <AirtableCalendar /> */}
-      <HardcoreCalendar />
+
+      <AirtableCalendar /> 
+      {/* <HardcoreCalendar /> */}
+
       <TimeCommitment />
       <EnrollNow />
       <Testimonials2 />
