@@ -1,6 +1,5 @@
 import './AirtableCalendar.css';
 import React, { useState, useEffect } from 'react';
-// import { useLocation } from 'react-router-dom';
 import { fetchData_P1P2 } from './Airtable.js';
 import { fetchData_P3P8 } from './Airtable.js';
 import playButton1 from './playButton1.png'
@@ -8,14 +7,12 @@ import playButton2 from './playButton2.png'
 
 function AirtableCalendar() {
   const [expandedSections, setExpandedSections] = useState({});
-  // const location = useLocation();
   const toggleDetails = (index) => {
       setExpandedSections(prevState => ({
           ...prevState,
           [index]: !prevState[index]
       }));
   };
-  // const containerClass = location.pathname !== '/' ? 'calendar-container' : '';
   const [pillarData1, setEvents1] = useState([]);
   const [pillarData2, setEvents2] = useState([]);
 
@@ -32,10 +29,8 @@ function AirtableCalendar() {
 
   return (
     <div className="airtableCalendar">
-      {/* NEED CSS STYLING */}
     <div className="pillarSchedule-column">
     <div className="pillarSchedule-text">Pillars 1 and 2</div>
-      {/* NEED CSS STYLING */}
     {pillarData1.map((event1, index) => {
       return (
           <div id='pillars1and2' className='test123' key={index}>
@@ -76,11 +71,8 @@ function AirtableCalendar() {
     })}
     </div>
 
-
-{/* Actually, here we can probs do a logic where it changes up the order in the array based on the calendar dates */}
-      {/* NEED CSS STYLING */}
-<div id='pillars3and8' className="pillarSchedule-column">
-  <div className="pillarSchedule-text">Pillars 3 - 8</div>
+    <div id='pillars3and8' className="pillarSchedule-column">
+    <div className="pillarSchedule-text">Pillars 3 - 8</div>
     {pillarData2.map((event2, index) => {
       return (
           <div className='test123' key={index + 0.1}>
@@ -118,11 +110,8 @@ function AirtableCalendar() {
           </div>
       );
     })}
-</div>
-
-
-
     </div>
+  </div>
   );
 }
 
