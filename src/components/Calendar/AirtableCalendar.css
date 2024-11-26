@@ -1,0 +1,225 @@
+.airtableCalendar {
+  border: green solid 2px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#scheduleCard {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 100%; */
+  margin: 5px 0;
+}
+
+.weekInfo {
+  /* padding-left: 45px; */
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 10px;
+  /* font-size: 17px; */
+  padding: 0.5em 0;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 7px;
+}
+
+
+
+.scheduleIconImg {
+  max-width: 1.75rem;
+  max-height: 1.75rem;
+  padding: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.scheduleIconImg.rotated {
+  transform: rotate(90deg);
+  /* 90-degree rotation */
+}
+
+
+.classTitle {
+  align-content: center;
+  padding-right: 1em;
+}
+
+.clickDetails {
+  padding: 0 .5em;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+
+
+.subTitle,
+.topicDetails {
+  padding: 15px 30px 15px;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 0.5rem;
+}
+
+
+.topicDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px 20px;
+}
+
+.topicDetails p{
+  margin: 5px 0;
+}
+
+
+
+.mobile-row {
+  display: flex;
+  align-items: center;
+}
+
+.optionTime {
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.optionTitle {
+  font-weight: 700;
+}
+
+.topicDetails>ul {
+  line-height: 25px;
+  padding-left: 25px;
+  margin: 0 .5rem 0 0;
+  max-width: 100%;
+  list-style-position: outside;
+}
+
+.topicDetails>ul>li {
+  margin: 5px 0 0 0;
+  line-height: 25px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /* Adjust the width for mobile devices */
+  .courseSchedule p,
+  li,
+  h2 {
+      max-width: 100%;
+  }
+
+  .calendarV2 {
+      display: flex;
+      flex-direction: column;
+      /* margin: 0 auto; */
+      /* width: 75%; */
+      /* border: 1px solid red; */
+      max-width: 80em;
+      margin-top: 1em;
+  }
+
+  .mobile-row {
+      align-items: center;
+  }
+
+  .scheduleIconImg {
+      max-width: 1.5rem;
+      max-height: 1.5rem;
+      padding: 0 7.5px;
+      transition: transform 0.3s ease;
+  }
+
+  .headerTitle {
+      /* flex-direction: column; */
+      /* align-items: left; */
+      font-size: 14px;
+      line-height: 1.2rem;
+  }
+
+  #optionalTitle,
+  #liveTopicTitle {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      padding-left: 2.5em
+  }
+
+  .optionTime,
+  .optionTitle {
+      font-size: 14px;
+      line-height: 1.2rem;
+      padding-right: 0;
+  }
+
+  .subTitle {
+      padding: 0.5rem 1rem;
+      
+  }
+
+  .clickDetails {
+      display: none;
+  }
+
+  .topicDetails p {
+      font-size: 14px;
+      padding: 0 .75em;
+  }
+
+  .topicDetails>ul {
+      padding: 0 0 0 2em;
+      font-size: 14px;
+      list-style-position: outside;
+  }
+}
+
+/* .airtableCalendar h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.airtableCalendar-container {
+  border: blue solid 2px;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 0;
+}
+
+.airtableCalendar .topicTitle {
+  display: flex;
+  border: red solid 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.topic-content h3 {
+  font-size: 22px;
+}
+
+
+.topic-content p{
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 0 1em;
+}
+
+.topic-content li {
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 0 0 1em;
+  list-style: none;
+} */
+

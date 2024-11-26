@@ -5,12 +5,11 @@ function TimeToBegin() {
   return (
     <div id='TimeToBegin' className='flex flex-direction-column'>
        <div className='container-cc text-center column border-sandwich'>
-        <h1 className=''>It's time to begin your real career...</h1>
-        <h1 className=''>Our job as UX Leaders isn't to deliver design.</h1>
-        <h1 className=''>Our job is to influence decisions.</h1>
+        <h3 className='h3'>With all your experience and dedication, don’t you think it’s time you start WINNING?</h3>
+        <p>It’s time you win your stakeholders’ trust and start influencing important product decisions.</p>
        </div>
 
-       <div className='container-cc column pb-4'>
+       <div className='container-cc column pb-4 pt-2'>
        <h2 id="overcome-objections-from-stakeholders-who-are-resistant-to-ux">
           Overcome objections from stakeholders who are resistant to UX.
         </h2>

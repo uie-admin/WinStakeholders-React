@@ -1,5 +1,5 @@
 import './TimeCommitment.css';
-import WinCalendar from '../winCalendar/winCalendar.js'
+// import WinCalendar from '../winCalendar/AirtableCalendar.js'
 
 
 function TimeCommitment(){
@@ -28,7 +28,7 @@ function TimeCommitment(){
         Our September Cohort Schedule
       </h1>
 
-      <WinCalendar />
+      {/* <WinCalendar /> */}
 
       <h1 className="pt-1 font-mogan">
       Time Commitment and Program Schedule

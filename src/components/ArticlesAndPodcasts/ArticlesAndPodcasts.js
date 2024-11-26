@@ -6,9 +6,9 @@ function ArticlesAndPodcasts(){
   return (
     <div id='ArticlesAndPodcasts'>
         <div className='ArticlesAndPodcastsFormat container-cc py-2 text-center'>
-            <h1 className='font-mogan'>
+            <h3 className='h3 font-mogan'>
                 What if you could convince your toughest stakeholders that your work will drive innovation?
-            </h1>
+            </h3>
         </div>
         <div className='container-cc'>
             <div className='column'>

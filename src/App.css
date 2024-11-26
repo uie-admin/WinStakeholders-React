@@ -29,13 +29,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* p, li {
+p, li {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-  font-size: 25px;
+  Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.5em;
   padding-bottom: 1em;
-} */
+}
 
 span {
   color: rgb(142, 142, 142);
@@ -47,14 +47,14 @@ span > a {
   font-size: 22px;
 }
 
-*/ ul, ol {
-  /* display: block; */
+/* ul, ol {
+  display: block;
   margin-block-start: 0em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 50px;
-}
+} */
 
 h1,
 h2,
@@ -68,7 +68,7 @@ h5 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2em;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 5px;
@@ -76,22 +76,26 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5rem;
   padding-bottom: 10px;
   font-weight: 700;
   line-height: 1.2;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.2rem;
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 600;
   line-height: 1.2;
 }
 
+.h3 {
+  font-size: 45px;
+}
+
 h4 {
-  font-size: 1.2em;
+  font-size: 1em;
   padding-top: 20px;
   padding-bottom: 10px;
   font-weight: 700;
@@ -213,9 +217,8 @@ p {
 /* STARTING DATE */
 .startingDate {
   background-color: black;
-  font-size: 32px;
+  font-size: 24px;
 }
-
 
 
 /* FLEXBOX STUFF */
@@ -293,18 +296,7 @@ p {
 }
 
 
-@media only screen and (max-width: 865px) {
-  .divider {
-    border-right: 0px solid white;
-    border-bottom: 2px solid white;
-  }
 
-  .testimonial .pr-3,
-  .testimonial .pl-3 {
-    padding-right: 0em !important;
-    padding-left: 0em !important;
-  }
-}
 
 
 /* START OF BUTTON */
@@ -799,4 +791,60 @@ p {
 
 .ft-p {
   line-height: 0.25em;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 54em) {
+  .startingDate {
+    font-size: 18px;
+  }
+
+  .introStatementFormat {
+    display: flex;
+    flex-direction: column;
+  }
+  .introStatementFormat-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+
+  .basis70, .basis30 {
+    width: 100%;
+  }
+
+  .basis30 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  h2 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+
+
+  .img-resp {
+    max-width: 150px;
+  }
+
+
+  .divider {
+    border-right: 0px solid white;
+    border-bottom: 2px solid white;
+  }
+
+  .testimonial .pr-3,
+  .testimonial .pl-3 {
+    padding-right: 0em !important;
+    padding-left: 0em !important;
+  }
 }
