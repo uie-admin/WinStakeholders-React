@@ -1,7 +1,21 @@
 .airtableCalendar {
-  border: green solid 2px;
+  /* border: green solid 2px; */
   width: 75%;
   margin: 0 auto;
+  margin-top: 2em;
+}
+
+.pillarSchedule-text {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0.5em 0 1em 2em;
+}
+
+.pillarSchedule-column {
+  border-radius: 10px;
+  padding: 15px 15px 7.5px;
+  background-color: rgb(235, 235, 235);
+  margin: 0 0 0.5rem 0;
 }
 
 #scheduleCard {
@@ -9,9 +23,9 @@
   flex-direction: column;
   background-color: rgb(235, 235, 235);
   border-radius: 10px;
-  padding: 20px;
+  /* padding: 20px; */
   /* width: 100%; */
-  margin: 5px 0;
+  /* margin: 5px 0; */
 }
 
 .weekInfo {
@@ -64,13 +78,18 @@
 
 .subTitle,
 .topicDetails {
-  padding: 15px 30px 15px;
+  margin-left: 25px;
+  padding: 15px 15px 15px;
   display: flex;
   border-radius: 10px;
   background-color: white;
   margin-bottom: 0.5rem;
 }
 
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+}
 
 .topicDetails {
   display: flex;
