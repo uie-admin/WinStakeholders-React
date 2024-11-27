@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Mogan;
+    src: url(./font/Mogan-Regular.otf);
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-mogan {
+    font-family: "Mogan";
+}
+
+p,
+li {
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* Use this instead of utility classes?
+  p + p {
+    padding-top: 1em;
+  }
+ */
+
+h2 + p {
+}
+
+span {
+    color: rgb(142, 142, 142);
+    font-size: 22px;
+}
+
+span > a {
+    color: rgb(142, 142, 142);
+    font-size: 22px;
+}
+
+/* Headings - should change to voices */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Source Sans Pro", "OpenSans", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Is this an exception or can be scoped to a component? */
+.border-sandwich > h1 {
+    font-family: "Mogan";
+    font-size: 3em;
+    line-height: 2.5em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* this needs to change */
+.h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 1em;
+    padding-top: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}

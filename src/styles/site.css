@@ -1,847 +1,138 @@
-@import 'settings.css';
-@import 'typography.css';
+/* @import "reset.css";  <-- worth it! */
+@import "setup.css";
+@import "settings.css";
+@import "structure.css";
+@import "utility.css";
+@import "typography.css";
+@import "buttons.css";
+
 .App {
     /* text-align: center; */
-  }
-  
-  .border-sandwich > h1 {
-    font-family: "Mogan";
-    font-size: 3em;
-    line-height: 2.5em;
-  }
-  
-  #EightPillarsExplained > h1 {
+}
+
+/* Eight Pillars <-- put in component */
+
+#EightPillarsExplained > h1 {
     font-size: 2.5em;
     font-weight: 700;
     line-height: 1.2;
     margin-top: 5px;
     margin-bottom: 5px;
-  }
-  
-  * {
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  p, li {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
-    font-size: 20px;
-    line-height: 1.5;
-  }
+}
 
-  p + p {
-    padding-top: 1em;
-  }
-  
-  span {
-    color: rgb(142, 142, 142);
-    font-size: 22px;
-  }
-  
-  span > a {
-    color: rgb(142, 142, 142);
-    font-size: 22px;
-  }
-  
-  /* ul, ol {
-    display: block;
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 50px;
-  } */
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
-      Arial, sans-serif;
-    font-weight: 600;
-  }
-  
-  h1 {
-    font-size: 2em;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-  
-  h3 {
-    font-size: 1.2rem;
-    padding-top: 20px;
-    font-weight: 600;
-    line-height: 1.2;
-  }
-  
-  .h3 {
-    font-size: 45px;
-  }
-  
-  h4 {
-    font-size: 1em;
-    padding-top: 20px;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-  
-  .text-white {
-    color: white
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  /* BACKGROUND COLORS */
-  .bg-white {
-    background-color: #ffffff;
-  }
-  
-  .bg-lightGray {
-   background-color: #f2f2f2;
-  }
-  
-  
-  .img-placeholder {
-    width: 100%;
-  }
-  
-  .img-pillar{
-    max-width: 125px;
-  }
-  
-  /* COLUMN SIZING */
-  .column {
-    padding: 0.75em;
-  }
-  
-  .basis10 {
-    width: 10%;
-  }
-  
-  .basis30 {
-    width: 30%;
-  }
-  
-  .basis40 {
-    width: 40%;
-  }
-  
-  .basis50 {
-    width: 50%;
-  }
-  
-  .basis60 {
-    width: 60%;
-  }
-  
-  .basis70 {
-    width: 70%;
-  }
-  
-  .basis90 {
-    width: 90%;
-  }
-  
-  /* CONTAINER SIZING */
-  .container-cc {
-    width: 85%;
-    max-width: 66em;
-    margin: 0 auto;
-  }
-  
-  /* IMAGE/IFRAME STUFF */
-  
-  .img-resp {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .img-icon {
-    max-width: 100%;
-    display: block;
-  }
-  
-  .imgTestimonial {
+/* RECORDING TESTIMONIAL <-- put in component */
+
+.imgTestimonial {
     width: 100px;
-  }
-  
-  .quote {
+}
+
+.quote {
     max-width: 45px;
     margin-right: 15px;
-  }
-  
-  
-  .video-container {
+}
+
+.video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 * 100) */
     height: 0;
     overflow: hidden;
-  }
-  
-  .video-container iframe {
+}
+
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-  
-  
-  
-  
-  /* STARTING DATE */
-  .startingDate {
+}
+
+/* STARTING DATE <- where does this go? */
+.startingDate {
     background-color: black;
     font-size: 24px;
-  }
-  
-  
-  /* FLEXBOX STUFF */
-  .flex {
-    display: flex;
-  }
-  
-  .flex-direction-column {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flex-direction-row-reverse {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  
-  .centercenter {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .flex-space-between {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  
-  
-  /* DIVIDER */
-  
-  .border-sandwich {
-    border-top: 1px solid gray; 
-    border-bottom: 1px solid gray;
-  }
-  
-  .border-top {
-    border-top: 1px solid gray; 
-  }
-  .border-bottom {
-    border-bottom: 1px solid gray;
-  }
-    
-  
-  
-  
-  
-  /* LAYOUT */
-  .split {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-items: center;
-    justify-content: center;
-    /*justify-content: space-between;*/
-  }
-  
-  
-  
-  /* TESTIMONIALS */
-  .divider {
+}
+
+/* TESTIMONIALS <- put in component */
+.divider {
     border-right: 2px solid white;
-  }
-  
-  .testimonial-title h4 {
+}
+
+.testimonial-title h4 {
     font-size: 1.4em;
     letter-spacing: 1.5px;
     font-weight: normal;
     padding-bottom: 20px;
-  }
-  
-  
-  
-  
-  
-  /* START OF BUTTON */
-  .btn {
-    display: inline-block;
-    text-decoration: none;
-    color: var(--buttonTextColor, #fff);
-    max-width: 10em;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 0.8em 2em;
-    background: var(--accent, black);
-    -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
-    transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, opacity 250ms linear;
-    transition: transform 250ms ease-in-out, opacity 250ms linear,
-      -webkit-transform 250ms ease-in-out;
-  }
-  
-  .btn:hover,
-  .btn:focus {
-    cursor: pointer;
-    opacity: 0.9;
-  }
-  
-  .btn-fill {
-    max-width: 100%;
-  }
-  
-  .btn-custom {
-    color: var(--white);
-    background-color: var(--custom);
-  }
-  
-  .btn-customPink {
-    color: var(--white);
-    background-color: var(--pink);
-  }
-  
-  .btn-custom:hover {
-    color: var(--white);
-    box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, 0.2);
-  }
-  
-  .btn-inverse {
-    background-color: var(--white);
-    color: var(--custom);
-  }
-  
-  .btn-inverse:hover {
-    box-shadow: var(--white);
-    color: inset 0 0 100px 100px rgba(0, 0, 0, 0.2);
-  }
-  
-  .btn-purple {
-    color: var(--white);
-    background-color: var(--brightPurple);
-  }
-  
-  .btn-purple:hover {
-    color: var(--white);
-    background-color: var(--darkPurple);
-  }
-  
-  .btn-yellow {
-    color: var(--dark);
-    background-color: var(--brightYellow);
-  }
-  
-  .btn-yellow:hover {
-    color: var(--dark);
-    background-color: var(--darkYellow);
-  }
-  
-  .btn-blue {
-    color: var(--white);
-    background-color: var(--brightBlue);
-  }
-  
-  .btn-blue:hover {
-    color: var(--white);
-    background-color: var(--darkBlue);
-  }
-  
-  .btn-orange {
-    color: var(--white);
-    background-color: var(--brightOrange);
-  }
-  
-  .btn-orange:hover {
-    color: var(--white);
-    background-color: var(--darkOrange);
-  }
-  
-  .btn-green {
-    color: var(--white);
-    background-color: var(--brightGreen);
-  }
-  
-  .btn-green:hover {
-    color: var(--white);
-    background-color: var(--darkGreen);
-  }
-  
-  .btn-pink {
-    color: var(--white);
-    background-color: var(--Pink);
-  }
-  
-  .btn-pink:hover {
-    color: var(--white);
-    background-color: var(--darkPink);
-  }
-  
-  .btn-shadow {
-    box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8),
-      1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0),
-      -6px 6px 0px 0px rgb(0 0 0);
-    -webkit-box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8),
-      1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0),
-      -6px 6px 0px 0px rgb(0 0 0);
-    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8),
-      1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0),
-      -6px 6px 0px 0px rgba(0, 0, 0, 1);
-    position: relative;
-  }
-  
-  .btn-shadow:hover {
-    box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8),
-      1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0),
-      -3px 3px 0px 0px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8),
-      -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0),
-      -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8),
-      1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0),
-      -3px 3px 0px 0px rgba(0, 0, 0, 1);
-    top: 2px;
-    left: -3px;
-  }
-  
-  .btn-agile {
-    color: var(--white);
-    background-color: var(--black);
-  }
-  
-  .btn-agile:hover {
-    color: var(--black) !important;
-    background-color: var(--brightYellow);
-  }
-  
-  .btn-goals-cta {
-    color: var(--darkGreen);
-    background-color: rgb(239, 241, 239);
-  }
-  
-  .btn-goals-cta:hover {
-    color: var(--white);
-    background-color: var(--darkGreen);
-  }
-  
-  .btn-metrics-cta {
-    color: var(--darkPurple);
-    background-color: rgb(241, 239, 239);
-    border: 1px transparent solid;
-  }
-  
-  .btn-metrics-cta:hover {
-    color: var(--white);
-    background-color: var(--brightPurple) !important;
-    border: 1px solid white;
-    box-shadow: 2px 2px 10px 1px #380b1d66;
-  }
-  
-  .btn-hiring-cta {
-    color: var(--darkOrange);
-    background-color: rgb(241, 239, 239);
-    border: 1px transparent solid;
-  }
-  
-  .btn-hiring-cta:hover {
-    color: var(--white);
-    background-color: var(--brightOrange) !important;
-    border: 1px solid white;
-    box-shadow: 2px 2px 10px 1px #380b1d66;
-  }
-  
-  .btn-goals {
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
-      Arial, sans-serif;
-    color: var(--black) !important;
-    background-color: white;
-    transition: background-color 0.24s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8),
-      1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0),
-      -6px 6px 0px 0px rgb(0 0 0);
-    -webkit-box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8),
-      1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0),
-      -6px 6px 0px 0px rgb(0 0 0);
-    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8),
-      1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0),
-      -6px 6px 0px 0px rgba(0, 0, 0, 1);
-    position: relative;
-  }
-  
-  .btn-goals:hover {
-    background-color: rgb(242, 245, 234);
-    box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8),
-      1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0),
-      -3px 3px 0px 0px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8),
-      -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0),
-      -1px 1px 0px 0px rgb(0, 0, 0), -3px 3px 0px 0px rgba(0, 0, 0, 1);
-    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8),
-      1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0),
-      -3px 3px 0px 0px rgba(0, 0, 0, 1);
-    top: 2px;
-    left: -3px;
-  }
-  
-  
-  /* END OF BUTTON */
-  
-  
-  /* START OF COLOR */
-  :root {
-    --custom: rgb(122, 140, 31);
-  
-    --bgMain: var(--darkGreen);
-    --accent: var(--darkGreen);
-    --accentBG: var(--darkGreen);
-  
-    --darkBlue: #006f74;
-    --brightBlue: #00a3b4;
-    --darkGreen: #575e22;
-    --brightGreen: #8c9b28;
-    --darkRed: #951a1d;
-    --brightRed: #d52327;
-    --darkPurple: #662547;
-    --brightPurple: #9b0e5b;
-    --orange: #9b621c;
-    --darkOrange: #c14e27;
-    --brightOrange: #ec621d;
-    --darkYellow: #d8a739;
-    --brightYellow: #ffcd5e;
-    --pink: #dd4e4e;
-    --brightPink: #e3635f;
-    --darkPink: #c04343;
-  
-    --white: #fff;
-    --lightGray: #f2f2f2;
-    --darkGray: #a3a3a3;
-    --black: #2c2c2c;
-    --black: #000000;
-  }
-  /* END OF COLOR */
-  
-  /* START OF BG COLOR */
-  
-  .bg-darkRed {
-    background-color: var(--darkRed);
-  }
-  
-  .bg-brightRed {
-    background-color: var(--brightRed);
-  }
-  
-  .bg-darkBlue {
-    background-color: var(--darkBlue);
-  }
-  
-  .bg-brightBlue {
-    background-color: var(--brightBlue);
-  }
-  
-  .bg-darkGreen {
-    background-color: var(--darkGreen);
-  }
-  
-  .bg-brightGreen {
-    background-color: var(--brightGreen);
-  }
-  
-  .bg-orange {
-    background-color: var(--orange);
-  }
-  
-  .bg-custom {
-    background-color: var(--custom);
-  }
-  
-  .bg-brightOrange {
-    background-color: var(--brightOrange);
-  }
-  
-  .bg-darkOrange {
-    background-color: var(--darkOrange);
-  }
-  
-  .bg-darkYellow {
-    background-color: var(--darkYellow);
-  }
-  
-  .bg-brightYellow {
-    background-color: var(--brightYellow);
-  }
-  
-  .bg-darkPurple {
-    background-color: var(--darkPurple);
-  }
-  
-  .bg-brightPurple {
-    background-color: var(--brightPurple);
-  }
-  
-  .bg-main {
-    background-color: var(--main);
-  }
-  
-  .bg-white {
-    background-color: var(--white);
-  }
-  
-  .bg-lightGray {
-    background-color: var(--lightGray);
-  }
-  
-  .bg-darkGray {
-    background-color: var(--darkGray);
-  }
-  
-  .bg-white {
-    background-color: var(--white);
-  }
-  
-  .bg-black {
-    background-color: var(--black);
-  }
-  
-  .bg-pink {
-    background-color: var(--pink);
-  }
-  
-  /* END OF BG COLOR */
-  
-  
-  
-  
-  /* PADDING PLACEMENT */
-  .px-1 {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  
-  .px-2 {
-    padding-left: 2em;
-    padding-right: 2em;
-  }
-  
-  .px-3 {
-    padding-left: 3em;
-    padding-right: 3em;
-  }
-  
-  .px-4 {
-    padding-left: 4em;
-    padding-right: 4em;
-  }
-  
-  .px-5 {
-    padding-left: 5em;
-    padding-right: 5em;
-  }
-  
-  .py-1 {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  }
-  
-  .py-2 {
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-  
-  .py-3 {
-    padding-top: 3em;
-    padding-bottom: 3em;
-  }
-  
-  .py-4 {
-    padding-top: 4em;
-    padding-bottom: 4em;
-  }
-  
-  .py-5 {
-    padding-top: 5em;
-    padding-bottom: 5em;
-  }
-  
-  .pt-1 {
-    padding-top: 1em;
-  }
-  
-  .pt-2 {
-    padding-top: 2em;
-  }
-  
-  .pt-3 {
-    padding-top: 3em;
-  }
-  
-  .pt-4 {
-    padding-top: 4em;
-  }
-  
-  .pt-5 {
-    padding-top: 5em;
-  }
-  
-  .pb-1 {
-    padding-bottom: 1em;
-  }
-  
-  .pb-2 {
-    padding-bottom: 2em;
-  }
-  
-  .pb-3 {
-    padding-bottom: 3em;
-  }
-  
-  .pb-4 {
-    padding-bottom: 4em;
-  }
-  
-  .pb-5 {
-    padding-bottom: 5em;
-  }
-  
-  .pl-1 {
-    padding-left: 1em;
-  }
-  
-  .pl-2 {
-    padding-left: 2em;
-  }
-  
-  .pl-3 {
-    padding-left: 3em;
-  }
-  
-  .pl-4 {
-    padding-left: 4em;
-  }
-  
-  .pl-5 {
-    padding-left: 5em;
-  }
-  
-  .pr-1 {
-    padding-right: 1em;
-  }
-  
-  .pr-2 {
-    padding-right: 2em;
-  }
-  
-  .pr-3 {
-    padding-right: 3em;
-  }
-  
-  .pr-4 {
-    padding-right: 4em;
-  }
-  
-  .pr-5 {
-    padding-right: 5em;
-  }
-  
-  
-  
-  
-  
-  /* FOOTER */
-  .ft-logo {
+}
+
+/* FOOTER <-- put in that component */
+.ft-logo {
     max-width: 340px;
-  }
-  
-  .ft-p {
+}
+
+.ft-p {
     line-height: 0.25em;
-  }
-  
-  
-  
-  
-  
-  
-  
-  @media only screen and (max-width: 54em) {
+}
+
+/* BREAKPOINTS <- 
+should go by pixels instead of em units 
+you can also put media breaks in each component / stylesheet
+or we can do general ones
+*/
+
+@media only screen and (max-width: 54em) {
     .startingDate {
-      font-size: 18px;
+        font-size: 18px;
     }
-  
+
     .introStatementFormat {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     .introStatementFormat-reverse {
-      display: flex;
-      flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
-  
-  
-    .basis70, .basis30 {
-      width: 100%;
-    }
-  
+
+    .basis70,
     .basis30 {
-      display: flex;
-      justify-content: space-around;
-  
+        width: 100%;
     }
-  
+
+    .basis30 {
+        display: flex;
+        justify-content: space-around;
+    }
+
     h2 {
-      font-size: 1.4em;
-      margin-top: 0;
-      margin-bottom: 0;
+        font-size: 1.4em;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .centercenter {
         align-items: flex-start;
-      }
-  
+    }
+
     .img-resp {
-      max-width: 150px;
+        max-width: 150px;
     }
 
     .ft-logo {
-      display: none;
+        display: none;
     }
 
     .ft-p {
-      line-height: 1.4;
+        line-height: 1.4;
     }
-  
-  
+
     .divider {
-      border-right: 0px solid white;
-      border-bottom: 2px solid white;
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
     }
-  
+
     .testimonial .pr-3,
     .testimonial .pl-3 {
-      padding-right: 0em !important;
-      padding-left: 0em !important;
+        padding-right: 0em !important;
+        padding-left: 0em !important;
     }
-  }
+}
