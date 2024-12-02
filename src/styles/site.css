@@ -1,0 +1,138 @@
+/* @import "reset.css";  <-- worth it! */
+@import "setup.css";
+@import "settings.css";
+@import "structure.css";
+@import "utility.css";
+@import "typography.css";
+@import "buttons.css";
+
+.App {
+    /* text-align: center; */
+}
+
+/* Eight Pillars <-- put in component */
+
+#EightPillarsExplained > h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* RECORDING TESTIMONIAL <-- put in component */
+
+.imgTestimonial {
+    width: 100px;
+}
+
+.quote {
+    max-width: 45px;
+    margin-right: 15px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 * 100) */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* STARTING DATE <- where does this go? */
+.startingDate {
+    background-color: black;
+    font-size: 24px;
+}
+
+/* TESTIMONIALS <- put in component */
+.divider {
+    border-right: 2px solid white;
+}
+
+.testimonial-title h4 {
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+/* FOOTER <-- put in that component */
+.ft-logo {
+    max-width: 340px;
+}
+
+.ft-p {
+    line-height: 0.25em;
+}
+
+/* BREAKPOINTS <- 
+should go by pixels instead of em units 
+you can also put media breaks in each component / stylesheet
+or we can do general ones
+*/
+
+@media only screen and (max-width: 54em) {
+    .startingDate {
+        font-size: 18px;
+    }
+
+    .introStatementFormat {
+        display: flex;
+        flex-direction: column;
+    }
+    .introStatementFormat-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .basis70,
+    .basis30 {
+        width: 100%;
+    }
+
+    .basis30 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .centercenter {
+        align-items: flex-start;
+    }
+
+    .img-resp {
+        max-width: 150px;
+    }
+
+    .ft-logo {
+        display: none;
+    }
+
+    .ft-p {
+        line-height: 1.4;
+    }
+
+    .divider {
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
+    }
+
+    .testimonial .pr-3,
+    .testimonial .pl-3 {
+        padding-right: 0em !important;
+        padding-left: 0em !important;
+    }
+}
