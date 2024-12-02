@@ -52,15 +52,15 @@ function AirtableCalendar() {
                     )}
 
                     <div id='pillarNumLab1' className='subTitle'>
-                      <div className='optionTitle'>{event1.weekOddLab1}</div>
+                      <div className='optionTitle optionTime'>{event1.weekOddLab1}</div>
                       <div className='optionTime'>Wed, {event1.displayedDate1} at 11am ET</div>
-                      <div className=''>or</div>
+                      <div className='optionTime'>or</div>
                       <div className='optionTime'>Wed, {event1.displayedDate1} at 6pm ET</div>
                     </div>
                     <div id='pillarNumLab2' className='subTitle'>
-                      <div className='optionTitle'>{event1.weekEvenLab2}</div>
+                      <div className='optionTitle optionTime'>{event1.weekEvenLab2}</div>
                       <div className='optionTime'>Wed, {event1.displayedDate2} at 11am ET</div>
-                      <div className=''>or</div>
+                      <div className='optionTime'>or</div>
                       <div className='optionTime'>Wed, {event1.displayedDate2} at 6pm ET</div>
                     </div>
 
@@ -93,15 +93,15 @@ function AirtableCalendar() {
                     )}
 
                     <div id='pillarNumLab1' className='subTitle'>
-                      <div className='optionTitle'>{event2.weekOddLab1}</div>
+                      <div className='optionTitle optionTime'>{event2.weekOddLab1}</div>
                       <div className='optionTime'>Wed, {event2.displayedDate1} at 11am ET</div>
-                      <div className=''>or</div>
+                      <div className='optionTime'>or</div>
                       <div className='optionTime'>Wed, {event2.displayedDate1} at 6pm ET</div>
                     </div>
                     <div id='pillarNumLab2' className='subTitle'>
-                      <div className='optionTitle'>{event2.weekEvenLab2}</div>
+                      <div className='optionTitle optionTime'>{event2.weekEvenLab2}</div>
                       <div className='optionTime'>Wed, {event2.displayedDate2} at 11am ET</div>
-                      <div className=''>or</div>
+                      <div className='optionTime'>or</div>
                       <div className='optionTime'>Wed, {event2.displayedDate2} at 6pm ET</div>
                     </div>
 
