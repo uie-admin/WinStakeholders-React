@@ -1,0 +1,7 @@
+/* CONTAINER SIZING */
+
+.container-cc {
+    width: 85%;
+    max-width: 66em;
+    margin: 0 auto;
+}
