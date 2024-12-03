@@ -2,3 +2,13 @@
     display: flex;
 }
 
+@media only screen and (max-width: 500px) {
+    .introStatementFormat {
+        display: flex;
+        flex-direction: column;
+    }
+    .introStatementFormat-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

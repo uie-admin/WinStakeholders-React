@@ -1,3 +1,23 @@
 .divider {
     border-right: 2px solid white;
 }
+
+.testimonial-title h4 {
+    font-size: 1.4em;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .testimonial .pr-3,
+    .testimonial .pl-3 {
+        padding-right: 0em !important;
+        padding-left: 0em !important;
+    }
+
+    .divider {
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
+    }
+}

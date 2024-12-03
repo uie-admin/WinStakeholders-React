@@ -10,11 +10,15 @@ function Testimonials1({ testimonyData }) {
                         <img
                             src={testimonyData[0].img}
                             className="img-resp image-left imgTestimonial"
-                            alt="Describe a picture"
+                            alt=""
                         />
                         <div className="testimonial-title">
                             <h2>
-                                <img className="quote" src={OpenQuotation} />
+                                <img
+                                    className="quote"
+                                    src={OpenQuotation}
+                                    alt=""
+                                />
                                 {testimonyData[0].title}:
                             </h2>
                         </div>

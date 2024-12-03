@@ -88,3 +88,11 @@ h4 {
     font-weight: 700;
     line-height: 1.2;
 }
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 1.4em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
