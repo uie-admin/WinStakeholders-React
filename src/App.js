@@ -1,4 +1,5 @@
 import "./styles/site.css";
+
 import Header from "./components/Header/Header.js";
 import Landing from "./components/Landing/Landing.js";
 import NextCohortStarts from "./components/NextCohortStarts/NextCohortStarts.js";
@@ -7,9 +8,9 @@ import ArticlesAndPodcasts from "./components/ArticlesAndPodcasts/ArticlesAndPod
 import TimeToBegin from "./components/TimeToBegin/TimeToBegin.js";
 import EnrollNow from "./components/EnrollNow/EnrollNow.js";
 import EightPillars from "./components/EightPillars/EightPillars.js";
-import Testimonials1 from "./components/Testimonials1/Testimonials1.js";
+import { TESTIMONIES } from "./const.js";
+import Testimonials from "./components/Testimonials/Testimonials.js";
 import TimeCommitment from "./components/TimeCommitment/TimeCommitment.js";
-import Testimonials2 from "./components/Testimonials2/Testimonials2.js";
 import AboutUs from "./components/AboutUs/AboutUs.js";
 import Pricing from "./components/Pricing/Pricing.js";
 import RecordingTestimonial from "./components/RecordingTestimonial/RecordingTestimonial.js";
@@ -29,14 +30,13 @@ function App() {
             <EnrollNow />
             <NextCohortStarts />
             <EightPillars />
-            <Testimonials1 />
-
+            <Testimonials testimonyData={TESTIMONIES.slice(0, 2)} />
             <AirtableCalendar />
             {/* <HardcoreCalendar /> */}
 
             <TimeCommitment />
             <EnrollNow />
-            <Testimonials2 />
+            <Testimonials testimonyData={TESTIMONIES.slice(2)} />
             <AboutUs />
             <EnrollNow />
             <Pricing />

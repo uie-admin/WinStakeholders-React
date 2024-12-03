@@ -10,53 +10,6 @@
     /* text-align: center; */
 }
 
-/* Eight Pillars <-- put in component */
-
-#EightPillarsExplained > h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-/* RECORDING TESTIMONIAL <-- put in component */
-
-.imgTestimonial {
-    width: 100px;
-}
-
-.quote {
-    max-width: 45px;
-    margin-right: 15px;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height / width = 9 / 16 * 100) */
-    height: 0;
-    overflow: hidden;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* STARTING DATE <- where does this go? */
-.startingDate {
-    background-color: black;
-    font-size: 24px;
-}
-
-/* TESTIMONIALS <- put in component */
-.divider {
-    border-right: 2px solid white;
-}
-
 .testimonial-title h4 {
     font-size: 1.4em;
     letter-spacing: 1.5px;

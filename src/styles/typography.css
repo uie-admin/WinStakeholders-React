@@ -22,10 +22,10 @@ li {
   p + p {
     padding-top: 1em;
   }
- */
 
-h2 + p {
-}
+  h2 + p {
+  }
+ */
 
 span {
     color: rgb(142, 142, 142);
