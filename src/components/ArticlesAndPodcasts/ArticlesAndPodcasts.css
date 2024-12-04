@@ -2,3 +2,18 @@
     display: flex;
 }
 
+.ccIcon {
+    width: 20%;
+}
+
+@media (max-width: 475px) {
+    .ccIcon {
+        width: 35%;
+    }
+}
+
+@media (min-width: 745px) {
+    .ccIcon {
+        width: 13%;
+    }
+}

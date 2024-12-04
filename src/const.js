@@ -75,21 +75,25 @@ export const ARTICLES_AND_PODCASTS = [
         id: 0,
         desc: "You’ve skimmed hundreds of articles.",
         src: ArticlesImage,
+        alt: "three pages with writing",
     },
     {
         id: 1,
         desc: "You’ve listened to dozens of podcasts.",
         src: PodcastImage,
+        alt: "cellphone displaying a microphone",
     },
     {
         id: 2,
         desc: "You’ve watched the leadership conference presentations.",
         src: PresentationsImage,
+        alt: "a projector screen with a loudspeaker",
     },
     {
         id: 3,
         desc: "You’ve read so many books.",
         src: BooksImage,
+        alt: "an open book",
     },
 ];
 
