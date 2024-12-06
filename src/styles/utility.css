@@ -206,3 +206,19 @@
 .pr-5 {
     padding-right: 5em;
 }
+
+@media (max-width: 500px) {
+    .centercenter {
+        align-items: flex-start;
+    }
+
+    .basis70 {
+        width: 100%;
+    }
+
+    .basis30 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}

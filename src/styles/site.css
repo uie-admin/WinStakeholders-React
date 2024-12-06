@@ -1,4 +1,4 @@
-/* @import "reset.css"; */
+@import "reset.css";
 @import "setup.css";
 @import "settings.css";
 @import "structure.css";
@@ -10,82 +10,8 @@
     /* text-align: center; */
 }
 
-.testimonial-title h4 {
-    font-size: 1.4em;
-    letter-spacing: 1.5px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-/* FOOTER <-- put in that component */
-.ft-logo {
-    max-width: 340px;
-}
-
-.ft-p {
-    line-height: 0.25em;
-}
-
 /* BREAKPOINTS <- 
 should go by pixels instead of em units 
 you can also put media breaks in each component / stylesheet
 or we can do general ones
 */
-
-@media only screen and (max-width: 54em) {
-    .startingDate {
-        font-size: 18px;
-    }
-
-    .introStatementFormat {
-        display: flex;
-        flex-direction: column;
-    }
-    .introStatementFormat-reverse {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .basis70,
-    .basis30 {
-        width: 100%;
-    }
-
-    .basis30 {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    h2 {
-        font-size: 1.4em;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .centercenter {
-        align-items: flex-start;
-    }
-
-    .img-resp {
-        max-width: 150px;
-    }
-
-    .ft-logo {
-        display: none;
-    }
-
-    .ft-p {
-        line-height: 1.4;
-    }
-
-    .divider {
-        border-right: 0px solid white;
-        border-bottom: 2px solid white;
-    }
-
-    .testimonial .pr-3,
-    .testimonial .pl-3 {
-        padding-right: 0em !important;
-        padding-left: 0em !important;
-    }
-}

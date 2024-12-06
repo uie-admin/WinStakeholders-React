@@ -2,3 +2,40 @@
     display: flex;
 }
 
+.introColumnContent {
+    width: 60%;
+}
+
+.introColumnImage {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#IntroStatement picture {
+    max-width: 200px;
+}
+
+@media (max-width: 650px) {
+    .introStatementFormat {
+        display: flex;
+        flex-direction: column;
+    }
+    .introStatementFormat-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .introColumnContent,
+    .introColumnImage {
+        width: 100%;
+    }
+
+    .introColumnImage {
+        justify-content: flex-start;
+    }
+
+    #IntroStatement picture {
+        max-width: 300px;
+    }
+}

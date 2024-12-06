@@ -2,3 +2,32 @@
     display: flex;
 }
 
+.podcastList {
+    margin-top: 2em;
+
+    .podcastItem {
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.ccIcon {
+    width: 20%;
+}
+
+@media (max-width: 475px) {
+    .ccIcon {
+        width: 35%;
+    }
+}
+
+@media (min-width: 745px) {
+    .ccIcon {
+        width: 10%;
+    }
+
+    .podcastList .podcastItem {
+        gap: 3.5em;
+    }
+}

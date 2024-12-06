@@ -1,49 +1,143 @@
+import React from "react";
 import "./Footer.css";
-import LogoWhite from "../../images/CC-UIE-white-logo.png";
-import { FOOTER } from "../../const.js";
 
-function Footer() {
+export default function Footer() {
     return (
-        <div id="Footer" className="bg-black py-2 px-3 flex-direction-column">
-            <div id="mainFooter" className="flex centercenter py-3 column">
-                <div className="pr-2 ft-logo basis30">
-                    <img src={LogoWhite} className="img-resp" />
-                </div>
+        <section className="footer-background">
+            <section className="dark-footer">
+                <div className="footer-row links container-cc-footer">
+                    <footer className="footer-column">
+                        <div className="footer-row ft-mk emulated-flex-gap first-row">
+                            <div>
+                                <a href="https://www.centercentre.com">
+                                    <img
+                                        src="https://asset.uie.com/img/logo/center_centre_white.png"
+                                        className="ft-logo white-logo"
+                                        alt="Center Centre UIE Logo"
+                                    />
+                                </a>
+                            </div>
+                            <div className="footer-row links">
+                                <p className="dark-footer">
+                                    791 Turnpike Street, Unit 4<br />
+                                    North Andover, MA 01845
+                                    <br />{" "}
+                                    <a
+                                        href="tel:19783275561"
+                                        className="phone-link"
+                                    >
+                                        +1 978-327-5561
+                                    </a>
+                                </p>
+                            </div>
+                            <div className="footer-row footer-row links">
+                                <p className="dark-footer">
+                                    Center Centre is proud to provide the
+                                    expertise you need to deliver better
+                                    products and services.
+                                </p>
+                            </div>
+                        </div>
 
-                <div className="pr-2 text-white flex-direction-column basis40">
-                    <p className="ft-p">{FOOTER[0].address1}</p>
-                    <p className="ft-p">{FOOTER[0].address2}</p>
-                    <p className="ft-p">{FOOTER[0].phoneNumber}</p>
+                        <div className="footer-row links">
+                            <div className="footer-column">
+                                <p className="dark-footer">
+                                    <a href="https://centercentre.com/programs/">
+                                        All Center Centre Programs
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://leaders.centercentre.com/">
+                                        Leaders of Awesomeness
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://essentials.centercentre.com/">
+                                        UX Strategy Essentials
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://agile.centercentre.com/">
+                                        Taking Control of Agile UX
+                                    </a>
+                                </p>
+                            </div>
+                            <div className="footer-column">
+                                <p className="dark-footer">
+                                    <a href="https://winstakeholders.com/">
+                                        Win Stakeholders & Influence Decisions
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://articles.centercentre.com/">
+                                        UX Strategy Articles
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://metrics.centercentre.com/">
+                                        UX Metrics to Drive Your Organization
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://essentials.centercentre.com/your-next-ux-job">
+                                        Essentials of Finding Your Next UX Job
+                                    </a>
+                                </p>
+                            </div>
+                            <div className="footer-column ">
+                                <p className="dark-footer">
+                                    <a href="https://centercentre.com/jared-live/">
+                                        Private Talks, Workshops, & Coaching
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://aycl.uie.com/">
+                                        All You Can Learn
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://research.centercentre.com/">
+                                        Strategic Approaches to UX Research
+                                    </a>
+                                </p>
+                                <p className="dark-footer">
+                                    <a href="https://visions.centercentre.com/">
+                                        Craft + Lead A Strategic UX Vision
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div className="footer-row ">
+                            <div className="footer-column">
+                                <p>
+                                    Copyright
+                                    <script>
+                                        document.write(/\d{4}/.exec(Date())[0]);
+                                    </script>
+                                    Center Centre Inc. <br />
+                                    All rights reserved.
+                                </p>
+                            </div>
+                            <div className="footer-column">
+                                <p>
+                                    Questions or comments?{" "}
+                                    <a href="https://centercentre.com/contact">
+                                        Contact Us
+                                    </a>
+                                    .
+                                </p>
+                            </div>
+                            <div className="footer-column">
+                                <p>
+                                    <a href="https://centercentre.com/privacy-notice/">
+                                        Privacy Notice
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
-
-                <div className="text-white basis30">
-                    <p>
-                        Center Centre is proud to provide you the expertise you
-                        need to deliver better products and services.
-                    </p>
-                </div>
-            </div>
-
-            <div
-                id="subFooter"
-                className="border-top flex-space-between text-white pt-2 column"
-            >
-                <span>
-                    Copyright {FOOTER[0].year} Center Centre Inc. All rights
-                    reserved.
-                </span>
-                <span>
-                    Questions or comments?{" "}
-                    <a href={FOOTER[0].contactUs}>Contact us.</a>
-                </span>
-                <span>
-                    <a href={FOOTER[0].privacyNotice} className="footerLink">
-                        Privacy Notice
-                    </a>
-                </span>
-            </div>
-        </div>
+            </section>
+        </section>
     );
 }
-
-export default Footer;

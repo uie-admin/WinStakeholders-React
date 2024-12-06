@@ -11,6 +11,10 @@
     font-family: "Mogan";
 }
 
+p {
+    color: var(--ink);
+}
+
 p,
 li {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
@@ -18,14 +22,21 @@ li {
     font-size: 20px;
     line-height: 1.5;
 }
-/* Use this instead of utility classes?
-  p + p {
-    padding-top: 1em;
-  }
 
-  h2 + p {
-  }
- */
+p + p {
+    padding-top: 1em;
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+p + h2 {
+    margin-top: 1.5em;
+}
+
+li + li {
+    margin-top: 1em;
+}
 
 span {
     color: rgb(142, 142, 142);
@@ -53,8 +64,6 @@ h1 {
     font-size: 2em;
     font-weight: 700;
     line-height: 1.2;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 /* Is this an exception or can be scoped to a component? */
@@ -70,9 +79,12 @@ h2 {
     line-height: 1.2;
 }
 
+h2.attention-voice {
+    font-size: 2.5em;
+}
+
 h3 {
     font-size: 1.2rem;
-    padding-top: 20px;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -87,4 +99,14 @@ h4 {
     padding-top: 20px;
     font-weight: 700;
     line-height: 1.2;
+}
+
+b {
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    h2.attention-voice {
+        font-size: 2em;
+    }
 }

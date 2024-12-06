@@ -7,6 +7,11 @@ html {
     box-sizing: inherit;
 }
 
+picture {
+    display: block;
+    overflow: hidden;
+}
+
 .img-resp {
     width: 100%;
     height: auto;
