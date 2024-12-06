@@ -102,7 +102,7 @@
   align-items: center;
 }
 
-.optionTime {
+.optionTime, .optionTime-hidden {
   font-weight: 500;
   padding-right: 20px;
 }
@@ -113,7 +113,7 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
 
   /* Adjust the width for mobile devices */
   .courseSchedule p,
@@ -125,9 +125,6 @@
   .calendarV2 {
       display: flex;
       flex-direction: column;
-      /* margin: 0 auto; */
-      /* width: 75%; */
-      /* border: 1px solid red; */
       max-width: 80em;
       margin-top: 1em;
   }
@@ -143,8 +140,6 @@
   }
 
   .headerTitle {
-      /* flex-direction: column; */
-      /* align-items: left; */
       font-size: 15px;
       line-height: 1.2rem;
   }
@@ -164,9 +159,13 @@
       padding-right: 20px;
   }
 
+  .optionTime-hidden {
+    display: none;
+  }
+
   .subTitle {
+      flex-direction: column;
       padding: 0.5rem 1rem;
-      
   }
 
   .clickDetails {
@@ -178,41 +177,3 @@
       padding: 10px 17.5px 10px;
   }
 }
-
-/* .airtableCalendar h2 {
-  margin: 0;
-  font-size: 1.5em;
-}
-
-.airtableCalendar-container {
-  border: blue solid 2px;
-  display: flex;
-  flex-direction: column;
-  margin: 1.5em 0;
-}
-
-.airtableCalendar .topicTitle {
-  display: flex;
-  border: red solid 2px;
-  margin: 0;
-  padding: 0;
-}
-
-.topic-content h3 {
-  font-size: 22px;
-}
-
-
-.topic-content p{
-  font-size: 16px;
-  line-height: 30px;
-  padding: 0 0 1em;
-}
-
-.topic-content li {
-  font-size: 16px;
-  line-height: 1.5em;
-  padding: 0 0 1em;
-  list-style: none;
-} */
-
