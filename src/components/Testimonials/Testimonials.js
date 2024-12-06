@@ -4,9 +4,9 @@ import OpenQuotation from "../../images/quotes.png";
 function Testimonials1({ testimonyData }) {
     return (
         <div id="Testimonials1" className="bg-pink">
-            <div className="container-cc py-2 mobile-align-start flex">
-                <div className="text-white column basis50 testimonial divider">
-                    <div className="pr-3">
+            <div className="container-cc testimonial-container">
+                <div className="text-white text-column column-left">
+                    <div>
                         <img
                             src={testimonyData[0].img}
                             className="img-resp image-left imgTestimonial"
@@ -17,7 +17,7 @@ function Testimonials1({ testimonyData }) {
                                 <img
                                     className="quote"
                                     src={OpenQuotation}
-                                    alt=""
+                                    alt="quotation mark"
                                 />
                                 {testimonyData[0].title}:
                             </h2>
@@ -28,16 +28,22 @@ function Testimonials1({ testimonyData }) {
                     </div>
                 </div>
 
-                <div className="text-white column basis50 testimonial left-padding">
-                    <div className="pl-3">
+                <hr className="divider" />
+
+                <div className="text-white text-column column-right">
+                    <div>
                         <img
                             src={testimonyData[1].img}
                             className="img-resp image-left imgTestimonial"
-                            alt="Describe a picture"
+                            alt=""
                         />
                         <div className="testimonial-title">
                             <h2>
-                                <img className="quote" src={OpenQuotation} />
+                                <img
+                                    className="quote"
+                                    src={OpenQuotation}
+                                    alt="quotation mark"
+                                />
                                 {testimonyData[1].title}:
                             </h2>
                         </div>

@@ -1,179 +1,172 @@
 .airtableCalendar {
-  /* border: green solid 2px; */
-  width: 75%;
-  margin: 0 auto;
-  margin-top: 2em;
+    /* border: green solid 2px; */
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2em;
 }
 
 .pillarSchedule-text {
-  font-size: 20px;
-  font-weight: 700;
-  padding: 0.5em 0 1em 2em;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.5em 0 1em 2em;
 }
 
 .pillarSchedule-column {
-  border-radius: 10px;
-  padding: 15px 15px 7.5px;
-  background-color: rgb(235, 235, 235);
-  margin: 0 0 0.5rem 0;
+    border-radius: 10px;
+    padding: 15px 15px 7.5px;
+    background-color: rgb(235, 235, 235);
+    margin: 0 0 0.5rem 0;
 }
 
 #scheduleCard {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(235, 235, 235);
-  border-radius: 10px;
-  /* padding: 20px; */
-  /* width: 100%; */
-  /* margin: 5px 0; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    /* padding: 20px; */
+    /* width: 100%; */
+    /* margin: 5px 0; */
 }
 
 .weekInfo {
-  /* padding-left: 45px; */
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 10px;
+    /* padding-left: 45px; */
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .headerTitle {
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  background-color: white;
-  padding-left: 10px;
-  /* font-size: 17px; */
-  padding: 0.5em 0;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    /* font-size: 17px; */
+    padding: 0.5em 0;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 7px;
 }
 
-
-
 .scheduleIconImg {
-  max-height: 1.75rem;
-  padding: 0 10px;
-  transition: transform 0.3s ease;
+    max-height: 1.75rem;
+    padding: 0 10px;
+    transition: transform 0.3s ease;
 }
 
 .scheduleIconImg.rotated {
-  transform: rotate(90deg);
-  /* 90-degree rotation */
+    transform: rotate(90deg);
+    /* 90-degree rotation */
 }
 
-
 .classTitle {
-  align-content: center;
-  padding-right: 1em;
+    align-content: center;
+    padding-right: 1em;
 }
 
 .clickDetails {
-  padding: 0 .5em;
-  font-weight: 400;
-  text-decoration: underline;
+    padding: 0 0.5em;
+    font-weight: 400;
+    text-decoration: underline;
 }
-
-
 
 .subTitle,
 .topicDetails {
-  margin-left: 25px;
-  padding: 15px 15px 15px;
-  display: flex;
-  border-radius: 10px;
-  background-color: white;
-  margin-bottom: 0.5rem;
+    margin-left: 25px;
+    padding: 15px 15px 15px;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 0.5rem;
 }
 
 .subTitle {
-  display: flex;
-  justify-content: space-around
+    display: flex;
+    justify-content: space-around;
 }
 
 .topicDetails {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 30px 20px;
-  line-height: 1.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px 20px;
+    line-height: 1.5em;
 }
 
 .mobile-row {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.optionTime, .optionTime-hidden {
-  font-weight: 500;
-  padding-right: 20px;
+.optionTime,
+.optionTime-hidden {
+    font-weight: 500;
+    padding-right: 20px;
 }
 
 .optionTitle {
-  font-weight: 700;
+    font-weight: 700;
 }
 
-
-
 @media only screen and (max-width: 780px) {
+    /* Adjust the width for mobile devices */
+    .courseSchedule p,
+    li,
+    h2 {
+        max-width: 100%;
+    }
 
-  /* Adjust the width for mobile devices */
-  .courseSchedule p,
-  li,
-  h2 {
-      max-width: 100%;
-  }
+    .calendarV2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 80em;
+        margin-top: 1em;
+    }
 
-  .calendarV2 {
-      display: flex;
-      flex-direction: column;
-      max-width: 80em;
-      margin-top: 1em;
-  }
+    .mobile-row {
+        align-items: center;
+    }
 
-  .mobile-row {
-      align-items: center;
-  }
+    .scheduleIconImg {
+        max-height: 1.5rem;
+        padding: 0 7.5px;
+        transition: transform 0.3s ease;
+    }
 
-  .scheduleIconImg {
-      max-height: 1.5rem;
-      padding: 0 7.5px;
-      transition: transform 0.3s ease;
-  }
+    .headerTitle {
+        font-size: 15px;
+        line-height: 1.2rem;
+    }
 
-  .headerTitle {
-      font-size: 15px;
-      line-height: 1.2rem;
-  }
+    #optionalTitle,
+    #liveTopicTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 2.5em;
+    }
 
-  #optionalTitle,
-  #liveTopicTitle {
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      padding-left: 2.5em
-  }
+    .optionTime,
+    .optionTitle {
+        font-size: 14px;
+        line-height: 1.2rem;
+        padding-right: 20px;
+    }
 
-  .optionTime,
-  .optionTitle {
-      font-size: 14px;
-      line-height: 1.2rem;
-      padding-right: 20px;
-  }
+    .optionTime-hidden {
+        display: none;
+    }
 
-  .optionTime-hidden {
-    display: none;
-  }
+    .subTitle {
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+    }
 
-  .subTitle {
-      flex-direction: column;
-      padding: 0.5rem 1rem;
-  }
+    .clickDetails {
+        display: none;
+    }
 
-  .clickDetails {
-      display: none;
-  }
-
-  .topicDetails {
-      font-size: 14px;
-      padding: 10px 17.5px 10px;
-  }
+    .topicDetails {
+        font-size: 14px;
+        padding: 10px 17.5px 10px;
+    }
 }

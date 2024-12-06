@@ -1,5 +1,22 @@
 .divider {
-    border-right: 2px solid white;
+    border: 1px solid white;
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-cc .testimonial-container {
+    max-width: 800px;
+}
+
+.text-column {
+    padding-block: 1em;
+    padding-inline: 1.5em;
 }
 
 .testimonial-title h4 {
@@ -9,15 +26,15 @@
     padding-bottom: 20px;
 }
 
-@media (max-width: 500px) {
-    .testimonial .pr-3,
-    .testimonial .pl-3 {
-        padding-right: 0em !important;
-        padding-left: 0em !important;
+@media (max-width: 700px) {
+    .testimonial-container {
+        display: flex;
+        flex-direction: column;
     }
 
     .divider {
-        border-right: 0px solid white;
-        border-bottom: 2px solid white;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
     }
 }

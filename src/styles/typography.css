@@ -13,6 +13,7 @@
 
 p {
     color: var(--ink);
+    max-width: 70ch;
 }
 
 p,
