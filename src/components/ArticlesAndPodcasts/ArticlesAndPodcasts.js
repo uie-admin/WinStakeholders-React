@@ -11,7 +11,7 @@ function ArticlesAndPodcasts() {
                 </h3>
             </div>
             <div className="container-cc">
-                <div className="column">
+                <div>
                     <p>
                         We know you feel like you’ve tried everything to get
                         buy-in from stakeholders. You’ve sought out every
@@ -21,11 +21,11 @@ function ArticlesAndPodcasts() {
                 </div>
             </div>
 
-            <div>
+            <ul className="podcastList container-cc">
                 {ARTICLES_AND_PODCASTS.map((rows) => {
                     return (
-                        <div className="container-cc flex">
-                            <picture className="column ccIcon">
+                        <li className="podcastItem flex">
+                            <picture className="ccIcon">
                                 <img
                                     src={rows.src}
                                     className="img-resp"
@@ -33,13 +33,13 @@ function ArticlesAndPodcasts() {
                                 />
                             </picture>
 
-                            <div className="bg-white column basis90">
-                                <h2 className="pl-1">{rows.desc}</h2>
+                            <div className="bg-white basis90">
+                                <h2>{rows.desc}</h2>
                             </div>
-                        </div>
+                        </li>
                     );
                 })}
-            </div>
+            </ul>
 
             <div className="container-cc py-2 pb-4">
                 <p>

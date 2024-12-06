@@ -1,7 +1,7 @@
 /* there must be a better way to do this... */
 
 .btn {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: var(--buttonTextColor, #fff);
     max-width: 10em;

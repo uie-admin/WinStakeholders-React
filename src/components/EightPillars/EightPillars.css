@@ -1,11 +1,37 @@
-.pillar-img {
-    max-width: 100px;
-}
-
-#EightPillarsExplained > h1 {
+#EightPillarsExplained h1 {
     font-size: 2.5em;
     font-weight: 700;
     line-height: 1.2;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.eightPillarsList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    gap: 3em;
+
+    li {
+        display: flex;
+        gap: 3em;
+
+        .pillarNumber {
+            max-width: 100px;
+        }
+    }
+}
+
+.pillarItem {
+    margin-left: 7%;
+}
+
+@media (max-width: 500px) {
+    .eightPillarsList {
+        li {
+            .pillarNumber {
+                max-width: 150px;
+            }
+        }
+    }
 }
