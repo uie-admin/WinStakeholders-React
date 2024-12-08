@@ -1,0 +1,29 @@
+.founderImage {
+    width: 40%;
+}
+
+#AboutUs {
+    padding-block: var(--module-padding);
+}
+
+.aboutUsText {
+    width: 60%;
+}
+
+.meetTheParents {
+    margin-top: 2em;
+}
+
+@media (max-width: 800px) {
+    .meetTheParents {
+        flex-direction: column-reverse;
+    }
+
+    .aboutUsText {
+        width: 100%;
+    }
+
+    .founderImage {
+        width: 60%;
+    }
+}

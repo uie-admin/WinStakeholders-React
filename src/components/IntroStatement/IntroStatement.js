@@ -5,13 +5,13 @@ function IntroStatement() {
     return (
         <div id="IntroStatement">
             <div id="introStatementA" className="bg-lightGray">
-                <div className="introStatementFormat container-cc py-1">
-                    <div className="column introColumnContent">
+                <div className="introStatementFormat container-cc">
+                    <div className="introColumnContent">
                         <h2>{INTRO_STATEMENT[0].span}</h2>
                         <p>{INTRO_STATEMENT[0].desc}</p>
                     </div>
 
-                    <div className="column introColumnImage">
+                    <div className="introColumnImage">
                         <picture>
                             <img
                                 src={INTRO_STATEMENT[0].src}
@@ -24,8 +24,8 @@ function IntroStatement() {
             </div>
 
             <div id="introStatementB">
-                <div className="introStatementFormat-reverse introStatementFormat container-cc py-1">
-                    <div className="column introColumnImage">
+                <div className="introStatementFormat-reverse introStatementFormat container-cc">
+                    <div className="introColumnImage">
                         <picture>
                             <img
                                 src={INTRO_STATEMENT[1].src}
@@ -34,7 +34,7 @@ function IntroStatement() {
                             />
                         </picture>
                     </div>
-                    <div className="column introColumnContent">
+                    <div className="introColumnContent">
                         <h2>{INTRO_STATEMENT[1].span}</h2>
                         <p>{INTRO_STATEMENT[1].desc}</p>
                     </div>
@@ -42,13 +42,13 @@ function IntroStatement() {
             </div>
 
             <div id="introStatementC" className="bg-lightGray">
-                <div className="introStatementFormat container-cc py-1">
-                    <div className="column introColumnContent">
+                <div className="introStatementFormat container-cc">
+                    <div className="introColumnContent">
                         <h2>{INTRO_STATEMENT[2].span}</h2>
                         <p>{INTRO_STATEMENT[2].desc}</p>
                     </div>
 
-                    <div className="column introColumnImage">
+                    <div className="introColumnImage">
                         <picture>
                             <img
                                 src={INTRO_STATEMENT[2].src}

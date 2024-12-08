@@ -1,5 +1,6 @@
 .introStatementFormat {
     display: flex;
+    padding-block: var(--section-padding);
 }
 
 .introColumnContent {

@@ -2,7 +2,6 @@ import "./styles/site.css";
 
 import Header from "./components/Header/Header.js";
 import Landing from "./components/Landing/Landing.js";
-import NextCohortStarts from "./components/NextCohortStarts/NextCohortStarts.js";
 import IntroStatement from "./components/IntroStatement/IntroStatement.js";
 import ArticlesAndPodcasts from "./components/ArticlesAndPodcasts/ArticlesAndPodcasts.js";
 import TimeToBegin from "./components/TimeToBegin/TimeToBegin.js";
@@ -28,7 +27,6 @@ function App() {
             <ArticlesAndPodcasts />
             <TimeToBegin />
             <EnrollNow />
-            <NextCohortStarts />
             <EightPillars />
             <Testimonials testimonyData={TESTIMONIES.slice(0, 2)} />
             <AirtableCalendar />

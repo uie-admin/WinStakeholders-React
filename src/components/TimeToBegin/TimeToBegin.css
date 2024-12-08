@@ -1,3 +1,7 @@
 .timeToBeginAnnouncement {
     padding-block: 2em;
 }
+
+.overcomeText {
+    padding: var(--section-padding);
+}

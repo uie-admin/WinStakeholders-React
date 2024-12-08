@@ -1,4 +1,5 @@
 #EnrollNow {
+    padding-block: var(--module-padding);
     .ctaEnroll {
         display: flex;
         flex-direction: column;

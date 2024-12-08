@@ -27,7 +27,14 @@
     --lightGray: #f2f2f2;
     --darkGray: #a3a3a3;
     --ink: #2c2c2c;
+    --caption: hsl(0, 0%, 40%);
     --black: #000000;
+
+    /* layout */
+
+    --section-padding: 2em;
+    --module-padding: 3em;
+    --big-module-padding: 4em;
 }
 .text-white {
     color: var(--white);

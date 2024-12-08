@@ -1,3 +1,7 @@
+#EightPillars {
+    padding-block: var(--module-padding);
+}
+
 #EightPillarsExplained {
     margin-top: 2em;
 }

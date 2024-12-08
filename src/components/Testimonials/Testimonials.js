@@ -6,22 +6,20 @@ function Testimonials1({ testimonyData }) {
         <div id="Testimonials1" className="bg-pink">
             <div className="container-cc testimonial-container">
                 <div className="text-white text-column column-left">
-                    <div>
+                    <div className="testimony-text">
                         <img
                             src={testimonyData[0].img}
                             className="img-resp image-left imgTestimonial"
                             alt=""
                         />
-                        <div className="testimonial-title">
-                            <h2>
-                                <img
-                                    className="quote"
-                                    src={OpenQuotation}
-                                    alt="quotation mark"
-                                />
-                                {testimonyData[0].title}:
-                            </h2>
-                        </div>
+                        <h2 className="testimonial-title">
+                            <img
+                                className="quote"
+                                src={OpenQuotation}
+                                alt="quotation mark"
+                            />
+                            {testimonyData[0].title}:
+                        </h2>
                         <p>
                             <em>{testimonyData[0].desc}</em>
                         </p>
@@ -31,22 +29,20 @@ function Testimonials1({ testimonyData }) {
                 <hr className="divider" />
 
                 <div className="text-white text-column column-right">
-                    <div>
+                    <div className="testimony-text">
                         <img
                             src={testimonyData[1].img}
                             className="img-resp image-left imgTestimonial"
                             alt=""
                         />
-                        <div className="testimonial-title">
-                            <h2>
-                                <img
-                                    className="quote"
-                                    src={OpenQuotation}
-                                    alt="quotation mark"
-                                />
-                                {testimonyData[1].title}:
-                            </h2>
-                        </div>
+                        <h2 className="testimonial-title">
+                            <img
+                                className="quote"
+                                src={OpenQuotation}
+                                alt="quotation mark"
+                            />
+                            {testimonyData[1].title}:
+                        </h2>
                         <p>
                             <em>{testimonyData[1].desc}</em>
                         </p>

@@ -14,7 +14,7 @@ function TimeToBegin() {
                 </p>
             </div>
 
-            <div className="container-cc column pb-4 pt-2">
+            <div className="overcomeText container-cc">
                 <h2 id="overcome-objections-from-stakeholders-who-are-resistant-to-ux">
                     Overcome objections from stakeholders who are resistant to
                     UX.

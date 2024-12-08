@@ -1,3 +1,6 @@
+#Testimonials1 {
+    padding-block: 2em;
+}
 .divider {
     border: 1px solid white;
     margin-left: 0.5em;
@@ -16,14 +19,23 @@
 
 .text-column {
     padding-block: 1em;
-    padding-inline: 1.5em;
+    display: flex;
 }
 
-.testimonial-title h4 {
-    font-size: 1.4em;
-    letter-spacing: 1.5px;
-    font-weight: normal;
-    padding-bottom: 20px;
+.testimony-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    p {
+        flex-grow: 1;
+    }
+}
+.testimonial-title {
+    flex-grow: 1;
+    p {
+        margin-top: 1em;
+    }
 }
 
 @media (max-width: 700px) {
