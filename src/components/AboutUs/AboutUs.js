@@ -12,7 +12,7 @@ function AboutUs() {
             </div>
 
             <div className="meetTheParents container-cc flex">
-                <div className="aboutUsText column">
+                <div className="aboutUsText">
                     <p>
                         Everything you learn in this 16-week program comes
                         directly from Leslie and Jared's experience. They’ve

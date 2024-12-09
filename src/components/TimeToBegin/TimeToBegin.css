@@ -4,4 +4,5 @@
 
 .overcomeText {
     padding: var(--section-padding);
+    padding-inline: 0;
 }

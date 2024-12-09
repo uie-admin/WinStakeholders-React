@@ -80,37 +80,49 @@ function Pricing() {
                         Your next step to winning stakeholders & influencing
                         decisions…
                     </h1>
-                    <div className="flex">
-                        <div className="bg-white column basis50">
-                            <img className="img-resp" src={WinSoloSignUp2x} />
-                            <div className="bg-lightGray px-2 py-1 pb-2">
-                                <h2>Enroll as a Solo UX Leader</h2>
-                                <p>
-                                    If you’re a UX leader or someone ready to
-                                    jump into UX leadership, this program is for
-                                    you. You’ll get the full mentorship and
-                                    coaching you need to grow your
-                                    responsibility and influence in your
-                                    organization.
-                                </p>
+                    <div className="purchasePlansWrapper">
+                        <div className="enrollPlan">
+                            <picture>
+                                <img
+                                    className="img-resp"
+                                    src={WinSoloSignUp2x}
+                                    alt="profile view of a young woman"
+                                />
+                            </picture>
+                            <div className="enrollPlanColumn">
+                                <div className="enrollPlanContent">
+                                    <h2>Enroll as a Solo UX Leader</h2>
+                                    <p>
+                                        If you’re a UX leader or someone ready
+                                        to jump into UX leadership, this program
+                                        is for you. You’ll get the full
+                                        mentorship and coaching you need to grow
+                                        your responsibility and influence in
+                                        your organization.
+                                    </p>
 
-                                <p>
-                                    You can pay{" "}
-                                    <b>{PAYMENT_PLAN[0].monthlyPrice}/month</b>{" "}
-                                    for 4 months.
-                                </p>
-                                <p>
-                                    Or you can{" "}
-                                    <b>save {PAYMENT_PLAN[0].monthlyPrice}</b>{" "}
-                                    with{" "}
-                                    <b>
-                                        a one-time payment of{" "}
-                                        {PAYMENT_PLAN[0].oneTimePrice}
-                                    </b>
-                                    .
-                                </p>
+                                    <p>
+                                        You can pay{" "}
+                                        <b>
+                                            {PAYMENT_PLAN[0].monthlyPrice}/month
+                                        </b>{" "}
+                                        for 4 months.
+                                    </p>
+                                    <p>
+                                        Or you can{" "}
+                                        <b>
+                                            save {PAYMENT_PLAN[0].monthlyPrice}
+                                        </b>{" "}
+                                        with{" "}
+                                        <b>
+                                            a one-time payment of{" "}
+                                            {PAYMENT_PLAN[0].oneTimePrice}
+                                        </b>
+                                        .
+                                    </p>
+                                </div>
 
-                                <div className="centercenter pt-2 pb-1 mobile-padding">
+                                <div className="btn-wrapper">
                                     <a
                                         className="btn btn-custom btn-fill btn-shadow"
                                         href={PAYMENT_PLAN[0].enrollLink}
@@ -121,46 +133,60 @@ function Pricing() {
                             </div>
                         </div>
 
-                        <div className="bg-white column basis50">
-                            <img className="img-resp" src={WinTeamSignUp2x} />
-                            <div className="bg-lightGray px-2 py-1 pb-2">
-                                <h2>
-                                    Enroll as a Team of 2 or More (save per
-                                    person)
-                                </h2>
+                        <div className="enrollPlan">
+                            <picture>
+                                <img
+                                    className="img-resp"
+                                    src={WinTeamSignUp2x}
+                                    alt="profile views of multiple people"
+                                />
+                            </picture>
+                            <div className="enrollPlanColumn">
+                                <div className="enrollPlanContent">
+                                    <h2>
+                                        Enroll as a Team of 2 or More (save per
+                                        person)
+                                    </h2>
 
-                                <p>
-                                    When members of your UX team learn these
-                                    skills and techniques together, the entire
-                                    team becomes a more effective force to be
-                                    reckoned with.
-                                </p>
-                                <p>
-                                    We offer a price for anyone registering for
-                                    more than just themselves to the program.
-                                </p>
-                                <p>
-                                    Two team members are still a team, so any
-                                    team of 2 or more people can register at the
-                                    discounted team member price.
-                                </p>
-                                <p>
-                                    Each of you can enroll for{" "}
-                                    <b>{PAYMENT_PLAN[1].monthlyPrice}/month</b>{" "}
-                                    for 4 months.
-                                </p>
-                                <p>
-                                    Or you can{" "}
-                                    <b>save {PAYMENT_PLAN[1].monthlyPrice}</b>{" "}
-                                    when you pay{" "}
-                                    <b>
-                                        a one-time payment of{" "}
-                                        {PAYMENT_PLAN[1].oneTimePrice}
-                                    </b>
-                                    .
-                                </p>
+                                    <p>
+                                        When members of your UX team learn these
+                                        skills and techniques together, the
+                                        entire team becomes a more effective
+                                        force to be reckoned with.
+                                    </p>
+                                    <p>
+                                        We offer a price for anyone registering
+                                        for more than just themselves to the
+                                        program.
+                                    </p>
+                                    <p>
+                                        Two team members are still a team, so
+                                        any team of 2 or more people can
+                                        register at the discounted team member
+                                        price.
+                                    </p>
+                                    <p>
+                                        Each of you can enroll for{" "}
+                                        <b>
+                                            {PAYMENT_PLAN[1].monthlyPrice}/month
+                                        </b>{" "}
+                                        for 4 months.
+                                    </p>
+                                    <p>
+                                        Or you can{" "}
+                                        <b>
+                                            save {PAYMENT_PLAN[1].monthlyPrice}
+                                        </b>{" "}
+                                        when you pay{" "}
+                                        <b>
+                                            a one-time payment of{" "}
+                                            {PAYMENT_PLAN[1].oneTimePrice}
+                                        </b>
+                                        .
+                                    </p>
+                                </div>
 
-                                <div className="centercenter pt-1 pb-1 mobile-padding">
+                                <div className="btn-wrapper">
                                     <a
                                         className="btn btn-customPink btn-fill btn-shadow"
                                         href={PAYMENT_PLAN[1].enrollLink}
