@@ -30,7 +30,6 @@ function App() {
             <EightPillars />
             <Testimonials testimonyData={TESTIMONIES.slice(0, 2)} />
             <AirtableCalendar />
-            {/* <HardcoreCalendar /> */}
 
             <TimeCommitment />
             <EnrollNow />
