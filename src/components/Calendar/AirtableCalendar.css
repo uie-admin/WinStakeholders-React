@@ -1,21 +1,80 @@
 .airtableCalendar {
-    /* border: green solid 2px; */
-    width: 75%;
     margin: 0 auto;
-    margin-top: 2em;
+    width: 80%;
+    margin-top: 3em;
+    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
+
+
+
+.scheduleTitle {
+    display: grid;
+    padding-bottom: 2em;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 15px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header1 header1 header2 header2"
+    "subheader1 subheader1 subheader1 subheader2";
+
+    .title {
+        grid-area: header1;
+        font-size: 36px;
+        align-self: center;
+    }
+    p {
+        grid-area: header2;
+        font-size: 14px;
+        align-self: center;
+        justify-self: end;
+    }
+
+    .courseSchedule-info{
+        grid-area: subheader1;
+        display: flex;
+        align-items: center;
+    }
+
+    .timezone-container {
+        align-self: center;
+        justify-self: end;
+        grid-area: subheader2;
+    }
+
+    select {
+        text-align: center;
+        background-color: rgb(235, 235, 235);
+        border-radius: 10px;
+        height: 2.2rem;
+        font-weight: 700;
+        width: fit-content;
+    };   
+}
+
+
+.courseSchedule-info img{
+    max-width: 5em;
+    padding: 0 1rem 0 0;
 }
 
 .pillarSchedule-text {
     font-size: 20px;
     font-weight: 700;
-    padding: 0.5em 0 1em 2em;
+    padding: 0.5em 0 0.5em 2em;
+}
+
+.pillarSchedule-text + .pillarSchedule-subtext {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 0 0.75em 2.5em;
 }
 
 .pillarSchedule-column {
     border-radius: 10px;
     padding: 15px 15px 7.5px;
     background-color: rgb(235, 235, 235);
-    margin: 0 0 0.5rem 0;
+    margin: 0 auto 1em;
 }
 
 #scheduleCard {
@@ -107,8 +166,40 @@
     font-weight: 700;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 800px) {
     /* Adjust the width for mobile devices */
+    .scheduleTitle {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 4fr;
+        grid-template-areas: 
+        "header"
+        "subheader1"
+        "subheader2"
+        "subheader3";
+    
+        .title {
+            grid-area: header;
+        }
+        .courseSchedule-info{
+            grid-area: subheader1;
+            display: flex;
+        }
+        p {
+            grid-area: subheader2;
+            justify-self: start;
+            font-size: 16px;
+        }
+        .timezone-container {
+            grid-area: subheader3;
+            justify-self: start;
+        };   
+    }
+
+
+
+
+    
     .courseSchedule p,
     li,
     h2 {

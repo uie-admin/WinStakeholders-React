@@ -1,9 +1,11 @@
 import "./AirtableCalendar.css";
 import React, { useState, useEffect } from "react";
 import { fetchData_P1P2, fetchData_P3P8 } from "./Airtable.js";
+import { formatToLocalTime, timezoneDropdown } from "./Airtable.js";
+import { STARTING_DATE } from "../../const.js";
 import playButton1 from "./playButton1.png";
 import playButton2 from "./playButton2.png";
-import { formatToLocalTime, timezoneDropdown } from "./Airtable.js";
+import calendarImage from "./calendar_image.png";
 
 function AirtableCalendar() {
     const [expandedSections, setExpandedSections] = useState({});
@@ -37,17 +39,40 @@ function AirtableCalendar() {
 
     return (
         <div className="airtableCalendar">
-            <div className="timezone-container">
-                <div className="timezoneText">
-                    <p>All times are currently listed in East Time Zone.</p>
-                    <p>We welcome folks from other time zones to join us.</p>
-                    <p>
-                        Translate times to your time zone with the drop down
-                        below.
-                    </p>
+          
+          <div className='scheduleTitle'>
+
+
+            
+              <h1 className="title">Course Schedule</h1>
+              
+              
+              
+            
+
+            
+              <div className="courseSchedule-info">
+                <img src={calendarImage} />
+                <div className="courseSchedule-info-date">
+                  <h3>Cohort: {STARTING_DATE[0].date}</h3>
+                  <h3>Every session is hosted with two time options.</h3>
                 </div>
+              </div>
+
+              <p>All times are currently listed in Eastern Time.</p>      
+
+              <div className='timezone-container'>
                 {timezoneDropdown(selectedTimezone, setSelectedTimezone)}
-            </div>
+              </div>
+
+
+            
+
+
+
+          </div>
+
+            
             <div className="pillarSchedule-column">
                 <div className="pillarSchedule-text">Pillars 1 and 2</div>
                 {pillarData1.map((event1, index) => {
@@ -147,6 +172,7 @@ function AirtableCalendar() {
 
             <div id="pillars3and8" className="pillarSchedule-column">
                 <div className="pillarSchedule-text">Pillars 3 - 8</div>
+                <div className="pillarSchedule-subtext">(These Pillars cycle and start in different orders)</div>
                 {pillarData2.map((event2, index) => {
                     return (
                         <div className="test123" key={index + 0.1}>
