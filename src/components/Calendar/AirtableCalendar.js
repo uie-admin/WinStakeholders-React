@@ -44,13 +44,7 @@ function AirtableCalendar() {
 
 
             
-              <h1 className="title">Course Schedule</h1>
-              
-              
-              
-            
-
-            
+              <h1 className="title calm-voice">Course Schedule</h1>
               <div className="courseSchedule-info">
                 <img src={calendarImage} />
                 <div className="courseSchedule-info-date">
@@ -59,7 +53,10 @@ function AirtableCalendar() {
                 </div>
               </div>
 
-              <p>All times are currently listed in Eastern Time.</p>      
+              <div className="timezone-text">
+                <p>All times are currently listed in Eastern Time.</p>      
+                <p>We welcome folks from other time zones to join us.</p>      
+              </div>
 
               <div className='timezone-container'>
                 {timezoneDropdown(selectedTimezone, setSelectedTimezone)}
