@@ -15,15 +15,17 @@ function TimeCommitment() {
                 </p>
                 <p>
                     That’s why we invite you to enroll in our brand new{" "}
-                    <b>How to Win Stakeholders & Influence Decisions program</b>
+                    <strong>
+                        How to Win Stakeholders & Influence Decisions program
+                    </strong>
                     .
                 </p>
                 <p>
                     This 16-week program has everything you need to master each
-                    of the <b>8 Pillars of Stakeholder Influence</b>. Attain a
-                    new set of tools, skills, and mindset from program creators
-                    Leslie Jensen-Inman and Jared Spool to propel your career in
-                    a whole new (and much more fun) direction.
+                    of the <strong>8 Pillars of Stakeholder Influence</strong>.
+                    Attain a new set of tools, skills, and mindset from program
+                    creators Leslie Jensen-Inman and Jared Spool to propel your
+                    career in a whole new (and much more fun) direction.
                 </p>
             </section>
 
@@ -38,16 +40,18 @@ function TimeCommitment() {
                     <em>Commit 2-3 hours per week to see real change.</em>
                 </h3>
                 <p>
-                    <b>We hold a new program start date every month.</b> Once
-                    you start the program, you’ll gain access to our private
-                    online learning space hosted in our Leaders of Awesomness
-                    community.
+                    <strong>
+                        We hold a new program start date every month.
+                    </strong>{" "}
+                    Once you start the program, you’ll gain access to our
+                    private online learning space hosted in our Leaders of
+                    Awesomness community.
                 </p>
 
                 <p>
-                    <b>
+                    <strong>
                         Then every two weeks, for the 16-weeks of the program,
-                    </b>{" "}
+                    </strong>{" "}
                     Leslie and Jared will introduce you to a brand new pillar of
                     stakeholder influence. They’ll share the techniques, tips,
                     and methods that will expand your current skill set and put
@@ -55,10 +59,10 @@ function TimeCommitment() {
                 </p>
 
                 <p>
-                    <b>
+                    <strong>
                         You’ll join weekly live lab sessions every Wednesday for
                         direct mentorship and guidance.
-                    </b>{" "}
+                    </strong>{" "}
                     For the first four weeks of the program, you can join a live
                     lab session on Wednesdays at 11am ET (15.00 GMT) or at 7pm
                     ET (23.00 GMT). For the remaining twelve weeks, you can join
@@ -67,30 +71,30 @@ function TimeCommitment() {
                 </p>
 
                 <p>
-                    <b>
+                    <strong>
                         Each live lab session is recorded, so you can catch up
                         by watching the recording if you miss it.
-                    </b>{" "}
+                    </strong>{" "}
                     We usually have the recordings posted within 24 hours. If
                     you have questions, you can put them in the discussion area
                     in our community space.
                 </p>
 
                 <p>
-                    <b>
+                    <strong>
                         Each week, there’s also a video about the topic to watch
                         at your convenience and some homework to prepare for the
                         labs.
-                    </b>{" "}
+                    </strong>{" "}
                     The videos are usually about 45 minutes long, and the
                     homework can take 20 - 40 minutes.
                 </p>
 
                 <p>
-                    <b>
+                    <strong>
                         Overall you’ll expect to spend about 2 to 3 hours a week
                         on this program.
-                    </b>{" "}
+                    </strong>{" "}
                     That’s a 1 hour live lab session every week, a 1 hour video
                     every other week, and ½ hour of intentional
                     practice/homework every week.

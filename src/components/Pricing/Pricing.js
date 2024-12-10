@@ -103,21 +103,21 @@ function Pricing() {
 
                                     <p>
                                         You can pay{" "}
-                                        <b>
+                                        <strong>
                                             {PAYMENT_PLAN[0].monthlyPrice}/month
-                                        </b>{" "}
+                                        </strong>{" "}
                                         for 4 months.
                                     </p>
                                     <p>
                                         Or you can{" "}
-                                        <b>
+                                        <strong>
                                             save {PAYMENT_PLAN[0].monthlyPrice}
-                                        </b>{" "}
+                                        </strong>{" "}
                                         with{" "}
-                                        <b>
+                                        <strong>
                                             a one-time payment of{" "}
                                             {PAYMENT_PLAN[0].oneTimePrice}
-                                        </b>
+                                        </strong>
                                         .
                                     </p>
                                 </div>
@@ -167,21 +167,21 @@ function Pricing() {
                                     </p>
                                     <p>
                                         Each of you can enroll for{" "}
-                                        <b>
+                                        <strong>
                                             {PAYMENT_PLAN[1].monthlyPrice}/month
-                                        </b>{" "}
+                                        </strong>{" "}
                                         for 4 months.
                                     </p>
                                     <p>
                                         Or you can{" "}
-                                        <b>
+                                        <strong>
                                             save {PAYMENT_PLAN[1].monthlyPrice}
-                                        </b>{" "}
+                                        </strong>{" "}
                                         when you pay{" "}
-                                        <b>
+                                        <strong>
                                             a one-time payment of{" "}
                                             {PAYMENT_PLAN[1].oneTimePrice}
-                                        </b>
+                                        </strong>
                                         .
                                     </p>
                                 </div>

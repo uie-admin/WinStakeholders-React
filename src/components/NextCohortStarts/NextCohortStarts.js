@@ -7,7 +7,7 @@ function NextCohortStarts() {
             id="nextCohortStarts"
             className="startingDate text-center text-white"
         >
-            Next cohort starts: <b>{STARTING_DATE[0].date}</b>
+            Next cohort starts: <strong>{STARTING_DATE[0].date}</strong>
         </div>
     );
 }

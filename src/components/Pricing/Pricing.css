@@ -36,10 +36,13 @@
     .btn-wrapper {
         display: flex;
         margin-top: 2em;
+        .btn {
+            max-width: 100%;
+        }
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .purchasePlansWrapper {
         flex-direction: column;
     }
@@ -48,6 +51,16 @@
         display: flex;
         justify-content: center;
         .btn {
+            width: 50%;
+            font-size: 1em;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .btn-wrapper {
+        .btn {
+            width: 75%;
             font-size: 1em;
         }
     }
