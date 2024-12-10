@@ -1,5 +1,6 @@
 .ArticlesAndPodcastsFormat {
     display: flex;
+    padding-block: var(--section-padding);
 }
 
 .podcastList {

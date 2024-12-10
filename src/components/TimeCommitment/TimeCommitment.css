@@ -1,0 +1,7 @@
+#TimeCommitment {
+    padding-block: 2em;
+
+    section + section {
+        margin-top: 2em;
+    }
+}

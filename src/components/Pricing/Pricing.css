@@ -1,0 +1,67 @@
+#DoYouHave {
+    padding-block: var(--module-padding);
+}
+
+#PurchasePlans {
+    padding-block: var(--section-padding);
+}
+
+.future-list {
+    margin-top: 1em;
+    margin-left: 5%;
+}
+
+.pricingText {
+    margin-top: 1em;
+}
+
+.purchasePlansWrapper {
+    display: flex;
+    gap: 3em;
+    .enrollPlan {
+        display: flex;
+        flex-direction: column;
+        padding-block: var(--section-padding);
+        .enrollPlanColumn {
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            padding-block: 1em;
+            .enrollPlanContent {
+                flex-grow: 1;
+            }
+        }
+    }
+
+    .btn-wrapper {
+        display: flex;
+        margin-top: 2em;
+        .btn {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .purchasePlansWrapper {
+        flex-direction: column;
+    }
+
+    .btn-wrapper {
+        display: flex;
+        justify-content: center;
+        .btn {
+            width: 50%;
+            font-size: 1em;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .btn-wrapper {
+        .btn {
+            width: 75%;
+            font-size: 1em;
+        }
+    }
+}

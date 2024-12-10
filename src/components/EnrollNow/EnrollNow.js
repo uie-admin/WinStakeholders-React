@@ -13,6 +13,7 @@ function EnrollNow() {
                 <a className="btn btn-customPink" href="#PurchasePlans">
                     Enroll Now
                 </a>
+                <NextCohortStarts />
             </div>
         </div>
     );

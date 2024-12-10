@@ -13,39 +13,35 @@
 
 p {
     color: var(--ink);
+    max-width: 70ch;
+}
+
+.caption-voice {
+    color: var(--caption);
 }
 
 p,
-li {
+li,
+.calm-voice {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
         Arial, sans-serif;
     font-size: 20px;
     line-height: 1.5;
 }
 
-p + p {
-    padding-top: 1em;
+.attention-voice {
+    font-size: 2em;
 }
 
-h1 + p,
-h2 + p,
-h3 + p,
-p + h2 {
+.change-cta-voice {
+    font-size: 1.5rem;
+    line-height: 1.2;
     margin-top: 1.5em;
+    font-weight: 600;
 }
 
-li + li {
-    margin-top: 1em;
-}
-
-span {
-    color: rgb(142, 142, 142);
-    font-size: 22px;
-}
-
-span > a {
-    color: rgb(142, 142, 142);
-    font-size: 22px;
+.loud-voice {
+    font-size: 2.5em;
 }
 
 /* Headings - should change to voices */
@@ -79,19 +75,10 @@ h2 {
     line-height: 1.2;
 }
 
-h2.attention-voice {
-    font-size: 2.5em;
-}
-
 h3 {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.2;
-}
-
-/* this needs to change */
-.h3 {
-    font-size: 45px;
 }
 
 h4 {
@@ -101,12 +88,40 @@ h4 {
     line-height: 1.2;
 }
 
-b {
+p + p {
+    padding-top: 1em;
+}
+h1 + p,
+h2 + p,
+h3 + p,
+p + h2 {
+    margin-top: 1.5em;
+}
+
+li + li {
+    margin-top: 1em;
+}
+
+span {
+    color: rgb(142, 142, 142);
+    font-size: 22px;
+}
+
+span > a {
+    color: rgb(142, 142, 142);
+    font-size: 22px;
+}
+
+strong {
     font-weight: 700;
 }
 
+em {
+    font-style: italic;
+}
+
 @media (max-width: 600px) {
-    h2.attention-voice {
+    h2.loud-voice {
         font-size: 2em;
     }
 }

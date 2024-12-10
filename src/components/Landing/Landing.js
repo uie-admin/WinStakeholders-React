@@ -5,7 +5,7 @@ import { LANDING } from "../../const.js";
 
 function Landing() {
     return (
-        <div className="bg-black py-4">
+        <div className="landing bg-black">
             <div className="container-cc">
                 <picture className="landing-logo centercenter">
                     <img

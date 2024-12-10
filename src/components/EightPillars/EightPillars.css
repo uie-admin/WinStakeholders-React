@@ -1,9 +1,13 @@
-#EightPillarsExplained h1 {
-    font-size: 2.5em;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-top: 5px;
-    margin-bottom: 5px;
+#EightPillars {
+    padding-block: var(--module-padding);
+}
+
+#EightPillarsExplained {
+    margin-top: 2em;
+}
+
+.eightPillarsIntro {
+    margin-top: 2em;
 }
 
 .eightPillarsList {
@@ -12,7 +16,7 @@
     margin-top: 2em;
     gap: 3em;
 
-    li {
+    .pillarItem {
         display: flex;
         gap: 3em;
 
@@ -23,14 +27,21 @@
 }
 
 .pillarItem {
-    margin-left: 7%;
+    margin-left: 4%;
 }
 
+.pillarsConclusion {
+    margin-block: 2em;
+}
 @media (max-width: 500px) {
     .eightPillarsList {
-        li {
+        margin-top: 2.5em;
+        gap: 3em;
+        .pillarItem {
+            gap: 1em;
+            flex-direction: column;
             .pillarNumber {
-                max-width: 150px;
+                max-width: 75px;
             }
         }
     }

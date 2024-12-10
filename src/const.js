@@ -45,7 +45,7 @@ export const STARTING_DATE = [
 export const INTRO_STATEMENT = [
     {
         id: 0,
-        span: "Because of What if you could influence meaningful improvements in your organization’s products and services?",
+        span: "What if you could influence meaningful improvements in your organization’s products and services?",
         desc: "And be excited when you deliver great projects?!?",
         src: Person1,
         alt: "Searching in book (with magnifying glass)",
@@ -224,6 +224,18 @@ export const TESTIMONIAL_VIDEO = [
 // ////////////////////
 // // FOOTER SECTION //
 // ////////////////////
+
+export const FUTURE_LIST = [
+    {
+        text: "A future where your work is improving the lives of your customers and users.",
+    },
+    {
+        text: "A future where you don’t have to battle just to do your job.",
+    },
+    {
+        text: "A future where you’re working to your full potential.",
+    },
+];
 
 export const FOOTER = [
     {

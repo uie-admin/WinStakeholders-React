@@ -31,7 +31,7 @@
     background-color: var(--custom);
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
     #Header .btn {
         font-size: 0.75rem;
     }

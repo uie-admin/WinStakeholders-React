@@ -4,7 +4,7 @@ import { EIGHT_PILLARS } from "../../const";
 function EightPillars() {
     return (
         <div id="EightPillars" className="container-cc">
-            <div className="pb-4 pt-2">
+            <div className="eightPillarsIntro">
                 <h1 className="font-mogan">
                     The 8 Pillars of Stakeholder Influence
                 </h1>
@@ -57,7 +57,7 @@ function EightPillars() {
                 </ul>
             </div>
 
-            <div className="pb-4">
+            <div className="pillarsConclusion">
                 <p>
                     As you master the skills, tools, and mindsets of each
                     pillar, you’ll immediately feel as if you’ve been released
