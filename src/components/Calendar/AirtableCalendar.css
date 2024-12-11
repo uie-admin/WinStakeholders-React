@@ -11,7 +11,7 @@
 .scheduleTitle {
     display: grid;
     padding-bottom: 2em;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 5px;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -173,35 +173,58 @@
 
 @media only screen and (max-width: 800px) {
     /* Adjust the width for mobile devices */
-    .scheduleTitle {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 4fr;
-        grid-template-areas: 
-        "header"
-        "subheader1"
-        "subheader2"
-        "subheader3";
+.scheduleTitle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 15px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header1"
+    "header2"
+    "header3"
+    "header4";
     
-        .title {
-            grid-area: header;
-        }
-        .courseSchedule-info{
-            grid-area: subheader1;
-            display: flex;
-        }
-        p {
-            grid-area: subheader2;
-            justify-self: start;
-            font-size: 16px;
-        }
-        .timezone-container {
-            grid-area: subheader3;
-            justify-self: start;
-        };   
+
+    .title {
+        grid-area: header1;
+        font-size: 36px;
+        align-self: center;
+    }
+    
+    .courseSchedule-info{
+        grid-area: header2;
+        display: flex;
+        justify-self: start;
+    }
+    
+    .timezone-text{
+        grid-area: header3;
+        justify-self: start;
+        line-height: 20px;
     }
 
+    .timezone-text p {
+        font-size: 14px;
+        justify-self: start;
+        line-height: 1;
+        text-align: start;
+    }
 
+    .timezone-container {
+        grid-area: header4;
+        align-self: center;
+        justify-self: start;
+    }
+
+    select {
+        text-align: center;
+        background-color: rgb(235, 235, 235);
+        border-radius: 10px;
+        height: 2.2rem;
+        font-weight: 700;
+        width: fit-content;
+    };   
+}
 
 
     
