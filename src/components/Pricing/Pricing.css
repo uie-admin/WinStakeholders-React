@@ -18,15 +18,18 @@
 .purchasePlansWrapper {
     display: flex;
     gap: 3em;
+
     .enrollPlan {
         display: flex;
         flex-direction: column;
         padding-block: var(--section-padding);
+
         .enrollPlanColumn {
             display: flex;
             flex-grow: 1;
             flex-direction: column;
             padding-block: 1em;
+
             .enrollPlanContent {
                 flex-grow: 1;
             }

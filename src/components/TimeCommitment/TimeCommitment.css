@@ -1,5 +1,5 @@
 #TimeCommitment {
-    padding-block: 2em;
+    padding-block: var(--section-padding);
 
     section + section {
         margin-top: 2em;

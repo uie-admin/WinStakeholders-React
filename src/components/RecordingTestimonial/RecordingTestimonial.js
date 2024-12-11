@@ -30,7 +30,7 @@ function RecordingTestimonial() {
                 ></iframe>
             </div>
 
-            <p className="text-white text-center container-cc thanksStudent">
+            <p className="text-white text-center container-cc">
                 Thank you <strong>{TESTIMONIAL_VIDEO[0].gradName}</strong> for
                 being a part of our program!
             </p>
