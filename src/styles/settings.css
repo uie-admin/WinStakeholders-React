@@ -160,3 +160,10 @@
     justify-content: center;
     /*justify-content: space-between;*/
 }
+
+@media (min-width: 1400px) {
+    :root {
+        --section-padding: 4em;
+        --module-padding: 6em;
+    }
+}
