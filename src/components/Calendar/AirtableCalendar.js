@@ -38,7 +38,7 @@ function AirtableCalendar() {
     }, []);
 
     return (
-        <div className="airtableCalendar">
+        <div className="airtableCalendar container-cc">
           
           <div className='scheduleTitle'>
 
