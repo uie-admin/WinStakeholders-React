@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf626415.css",
+    "main.js": "/static/js/main.6564abd4.js",
+    "static/js/453.45dd2ca9.chunk.js": "/static/js/453.45dd2ca9.chunk.js",
+    "static/media/meet-leslie.png": "/static/media/meet-leslie.d62655eef8f4ca0b0819.png",
+    "static/media/meet-jared.png": "/static/media/meet-jared.6babc9ecef7cfbbdb05b.png",
+    "static/media/landing.png": "/static/media/landing.f8748a87174870c06a22.png",
+    "static/media/Mogan-Regular.otf": "/static/media/Mogan-Regular.1d9073ac46adc774cbd9.otf",
+    "static/media/individual-6.png": "/static/media/individual-6.085843e8a6a8136baeda.png",
+    "static/media/individual-7.png": "/static/media/individual-7.2d3f81b8073c0097ddcc.png",
+    "static/media/individual-8.png": "/static/media/individual-8.b1af5153d42f8da8c459.png",
+    "static/media/testimonial-star.png": "/static/media/testimonial-star.27432d95ca197989fe2d.png",
+    "static/media/testimonial-heart.png": "/static/media/testimonial-heart.0aeb3e2075be54b9a22c.png",
+    "static/media/Win-Team-Signup2x.png": "/static/media/Win-Team-Signup2x.e12b1da0d1b3f7c17154.png",
+    "static/media/quotes.png": "/static/media/quotes.c20281a5b3c26490e1a0.png",
+    "static/media/testimonial-thumb-up.png": "/static/media/testimonial-thumb-up.b2547d43d481963e46eb.png",
+    "static/media/num-8.png": "/static/media/num-8.60f67f243c7855e3be15.png",
+    "static/media/num-3.png": "/static/media/num-3.616467dff3b673cd4a11.png",
+    "static/media/num-6.png": "/static/media/num-6.ae00c1ee9f4c1ab92e6f.png",
+    "static/media/Win-Solo-Signup2x.png": "/static/media/Win-Solo-Signup2x.ca72387baa5e6169179b.png",
+    "static/media/num-5.png": "/static/media/num-5.644361b59070a9bcd9a9.png",
+    "static/media/num-2.png": "/static/media/num-2.e61d932ce833c165fac9.png",
+    "static/media/CC-UIE-black-logo.png": "/static/media/CC-UIE-black-logo.d42043bc9d75d20bb16e.png",
+    "static/media/books.png": "/static/media/books.45b4fc3cf7315299c62a.png",
+    "static/media/presentations.png": "/static/media/presentations.80da3316f604d1c621d7.png",
+    "static/media/num-4.png": "/static/media/num-4.8445af4c689155910e09.png",
+    "static/media/num-7.png": "/static/media/num-7.1aff375707c5ae8ad74e.png",
+    "static/media/calendar_image.png": "/static/media/calendar_image.21c2ff9f52ff14096d30.png",
+    "static/media/articles.png": "/static/media/articles.dcf4d8e91b285b4198f2.png",
+    "static/media/podcasts.png": "/static/media/podcasts.e799458964d6fba9bb3c.png",
+    "index.html": "/index.html",
+    "main.bf626415.css.map": "/static/css/main.bf626415.css.map",
+    "main.6564abd4.js.map": "/static/js/main.6564abd4.js.map",
+    "453.45dd2ca9.chunk.js.map": "/static/js/453.45dd2ca9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf626415.css",
+    "static/js/main.6564abd4.js"
+  ]
+}
