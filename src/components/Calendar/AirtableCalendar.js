@@ -39,11 +39,8 @@ function AirtableCalendar() {
 
     return (
         <div className="airtableCalendar container-cc">
-          
+
           <div className='scheduleTitle'>
-
-
-            
               <h1 className="title calm-voice">Course Schedule</h1>
               <div className="courseSchedule-info">
                 <img src={calendarImage} />
@@ -61,12 +58,6 @@ function AirtableCalendar() {
               <div className='timezone-container'>
                 {timezoneDropdown(selectedTimezone, setSelectedTimezone)}
               </div>
-
-
-            
-
-
-
           </div>
 
             
