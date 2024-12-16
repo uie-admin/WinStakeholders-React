@@ -12,3 +12,11 @@
         }
     }
 }
+
+@media (min-width: 638px) and (max-width: 812px) {
+    .ctaEnroll {
+        .ctaMessage {
+            max-width: 500px;
+        }
+    }
+}

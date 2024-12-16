@@ -23,6 +23,14 @@
     }
 }
 
+@media (min-width: 740px) and (max-width: 892px) {
+    .ArticlesAndPodcastsFormat {
+        .ctaMessage {
+            max-width: 600px;
+        }
+    }
+}
+
 @media (min-width: 745px) {
     .ccIcon {
         width: 10%;

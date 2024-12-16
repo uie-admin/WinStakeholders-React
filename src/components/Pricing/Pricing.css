@@ -4,6 +4,7 @@
 
 #PurchasePlans {
     padding-block: var(--section-padding);
+    max-width: 800px;
 }
 
 .future-list {
@@ -16,19 +17,24 @@
 }
 
 .purchasePlansWrapper {
-    display: flex;
-    gap: 3em;
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 
     .enrollPlan {
         display: flex;
         flex-direction: column;
         padding-block: var(--section-padding);
+        max-width: 450px;
 
         .enrollPlanColumn {
             display: flex;
             flex-grow: 1;
             flex-direction: column;
-            padding-block: 1em;
+            padding-inline: 1.5em;
+            padding-block: 2em;
+            background-color: var(--lightGray);
 
             .enrollPlanContent {
                 flex-grow: 1;
@@ -39,6 +45,7 @@
     .btn-wrapper {
         display: flex;
         margin-top: 2em;
+        justify-content: center;
         .btn {
             max-width: 100%;
         }
@@ -47,7 +54,7 @@
 
 @media (max-width: 700px) {
     .purchasePlansWrapper {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .btn-wrapper {
