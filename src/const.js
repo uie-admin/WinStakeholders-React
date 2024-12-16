@@ -216,7 +216,7 @@ export const TESTIMONIES = [
 
 export const TESTIMONIAL_VIDEO = [
     {
-        link: "https://player.vimeo.com/video/814643928?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        link: "https://player.vimeo.com/video/814643928?badge=0&autopause=0&player_id=0&app_id=58479",
         gradName: "Jacquelyn Candelas",
     },
 ];

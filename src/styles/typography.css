@@ -33,6 +33,10 @@ li,
     font-size: 2em;
 }
 
+.ctaMessage {
+    max-width: 50ch;
+}
+
 .change-cta-voice {
     font-size: 1.5rem;
     line-height: 1.2;

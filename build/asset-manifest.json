@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.bf626415.css",
-    "main.js": "/static/js/main.13659072.js",
-    "static/js/453.45dd2ca9.chunk.js": "/static/js/453.45dd2ca9.chunk.js",
+    "main.css": "/static/css/main.3accf774.css",
+    "main.js": "/static/js/main.be23652a.js",
+    "static/js/787.0ad7b579.chunk.js": "/static/js/787.0ad7b579.chunk.js",
     "static/media/meet-leslie.png": "/static/media/meet-leslie.d62655eef8f4ca0b0819.png",
     "static/media/meet-jared.png": "/static/media/meet-jared.6babc9ecef7cfbbdb05b.png",
     "static/media/landing.png": "/static/media/landing.f8748a87174870c06a22.png",
@@ -30,12 +30,12 @@
     "static/media/articles.png": "/static/media/articles.dcf4d8e91b285b4198f2.png",
     "static/media/podcasts.png": "/static/media/podcasts.e799458964d6fba9bb3c.png",
     "index.html": "/index.html",
-    "main.bf626415.css.map": "/static/css/main.bf626415.css.map",
-    "main.13659072.js.map": "/static/js/main.13659072.js.map",
-    "453.45dd2ca9.chunk.js.map": "/static/js/453.45dd2ca9.chunk.js.map"
+    "main.3accf774.css.map": "/static/css/main.3accf774.css.map",
+    "main.be23652a.js.map": "/static/js/main.be23652a.js.map",
+    "787.0ad7b579.chunk.js.map": "/static/js/787.0ad7b579.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf626415.css",
-    "static/js/main.13659072.js"
+    "static/css/main.3accf774.css",
+    "static/js/main.be23652a.js"
   ]
 }

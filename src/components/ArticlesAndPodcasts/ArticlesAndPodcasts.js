@@ -4,8 +4,8 @@ import { ARTICLES_AND_PODCASTS } from "../../const";
 function ArticlesAndPodcasts() {
     return (
         <div id="ArticlesAndPodcasts">
-            <div className="ArticlesAndPodcastsFormat container-cc text-center">
-                <h3 className="attention-voice">
+            <div className="ArticlesAndPodcastsFormat container-cc">
+                <h3 className="ctaMessage attention-voice">
                     What if you could convince your toughest stakeholders that
                     your work will drive innovation?
                 </h3>

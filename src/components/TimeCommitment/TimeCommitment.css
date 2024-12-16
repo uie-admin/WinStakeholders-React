@@ -5,3 +5,7 @@
         margin-top: 2em;
     }
 }
+
+/* if titles want to be adjusted for orphans 
+@media (min-width: 730px) and (max-width: 1030) {
+} */

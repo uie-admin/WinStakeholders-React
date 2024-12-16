@@ -5,7 +5,7 @@ function TimeCommitment() {
     return (
         <div id="TimeCommitment" className="container-cc">
             <section className="winProgramIntro">
-                <h1 className="text-center font-mogan">
+                <h1 className="font-mogan">
                     Our How to Win Stakeholders & Influence Decisions Program
                 </h1>
 

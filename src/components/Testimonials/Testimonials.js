@@ -20,9 +20,7 @@ function Testimonials1({ testimonyData }) {
                             />
                             {testimonyData[0].title}:
                         </h2>
-                        <p>
-                            <em>{testimonyData[0].desc}</em>
-                        </p>
+                        <p>{testimonyData[0].desc}</p>
                     </div>
                 </div>
 
@@ -43,9 +41,7 @@ function Testimonials1({ testimonyData }) {
                             />
                             {testimonyData[1].title}:
                         </h2>
-                        <p>
-                            <em>{testimonyData[1].desc}</em>
-                        </p>
+                        <p>{testimonyData[1].desc}</p>
                     </div>
                 </div>
             </div>

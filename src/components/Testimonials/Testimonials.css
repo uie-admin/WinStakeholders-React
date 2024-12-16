@@ -4,7 +4,7 @@
 .divider {
     border: 1px solid white;
     margin-left: 0.5em;
-    margin-right: 1em;
+    margin-right: 1.5em;
 }
 
 .testimonial-container {
@@ -29,6 +29,7 @@
 
     p {
         flex-grow: 1;
+        color: var(--white);
     }
 }
 .testimonial-title {
