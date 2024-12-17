@@ -5,7 +5,7 @@ function EightPillars() {
     return (
         <div id="EightPillars" className="container-cc">
             <div className="eightPillarsIntro">
-                <h1 className="font-mogan">
+                <h1 className="loud-voice font-mogan">
                     The 8 Pillars of Stakeholder Influence
                 </h1>
                 <p>

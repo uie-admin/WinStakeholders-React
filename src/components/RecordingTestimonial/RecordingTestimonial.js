@@ -5,12 +5,12 @@ function RecordingTestimonial() {
     return (
         <div id="RecordingTestimonial" className="bg-black">
             <div className="pb-3">
-                <h1 className="text-white text-center font-mogan">
+                <h1 className="loud-voice text-white text-center font-mogan">
                     On the fence?
                 </h1>
-                <h1 className="text-white text-center font-mogan">
+                <h2 className="attention-voice text-white text-center font-mogan">
                     Hear from a program graduate:
-                </h1>
+                </h2>
             </div>
 
             {/* Vimeo Embed */}
