@@ -25,12 +25,12 @@ li,
 .calm-voice {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica,
         Arial, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
 .attention-voice {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .ctaMessage {
@@ -38,14 +38,14 @@ li,
 }
 
 .change-cta-voice {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     margin-top: 1.5em;
     font-weight: 600;
 }
 
 .loud-voice {
-    font-size: 2.5em;
+    font-size: clamp(32px, 5vw, 40px);
 }
 
 /* Headings - should change to voices */

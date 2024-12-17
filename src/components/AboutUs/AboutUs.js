@@ -6,7 +6,7 @@ function AboutUs() {
     return (
         <div id="AboutUs" className="bg-lightGray pb-4">
             <div className="aboutUsTitle flex container-cc">
-                <h1 className="font-mogan">
+                <h1 className="loud-voice font-mogan">
                     Jared Spool & Dr. Leslie Jensen-Inman will guide you.
                 </h1>
             </div>

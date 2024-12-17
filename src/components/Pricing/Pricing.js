@@ -8,7 +8,7 @@ function Pricing() {
     return (
         <div id="DoYouHave" className="container-cc">
             <div>
-                <h1 className="font-mogan">
+                <h1 className="loud-voice font-mogan">
                     Do you have your sights on changing UX in your organization?
                 </h1>
                 <h2 className="change-cta-voice">
@@ -52,7 +52,7 @@ function Pricing() {
                         support. That’s all you have to do to get on the path to
                         changing the trajectory of your UX career.
                     </p>
-                    <h2 id="we-guarantee-your-satisfaction-100-">
+                    <h2 className="change-CTA-voice satisfaction-header">
                         We guarantee your satisfaction 100%
                     </h2>
                     <p>As in, your money back. Seriously.</p>
@@ -76,7 +76,7 @@ function Pricing() {
                 </section>
 
                 <div id="PurchasePlans">
-                    <h1 className="font-mogan mogine-mobile-30">
+                    <h1 className="loud-voice font-mogan mogine-mobile-30">
                         Your next step to winning stakeholders & influencing
                         decisions…
                     </h1>
